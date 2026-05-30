@@ -1,0 +1,36 @@
+name: Check configs
+
+on:
+  workflow_dispatch:          # ручной запуск: Actions → Check configs → Run workflow
+  schedule:
+    - cron: "0 */6 * * *"     # автоматически каждые 6 часов
+  push:
+    paths:
+      - "sources.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Check configs via Xray
+        run: python scripts/check_configs.py
+
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/working.txt output/working.json
+          git diff --staged --quiet || git commit -m "update: working configs"
+          git push
