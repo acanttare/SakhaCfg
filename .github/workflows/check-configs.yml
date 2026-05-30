@@ -1,12 +1,16 @@
 name: Check configs
 
 on:
-  workflow_dispatch:          # ручной запуск: Actions → Check configs → Run workflow
+  workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"     # автоматически каждые 6 часов
+    - cron: "0 */6 * * *"
   push:
     paths:
-      - "sources.txt"
+      - sources.txt
+
+concurrency:
+  group: check-configs
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -14,23 +18,63 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+    timeout-minutes: 360
 
-      - uses: actions/setup-python@v5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
 
-      - name: Install dependencies
+      - name: Install Python deps
         run: pip install -r scripts/requirements.txt
 
-      - name: Check configs via Xray
-        run: python scripts/check_configs.py
+      - name: Setup Xray
+        uses: actions/cache@v4
+        id: xray-cache
+        with:
+          path: /opt/xray
+          key: xray-linux-64-v1
 
-      - name: Save results
+      - name: Download Xray
+        if: steps.xray-cache.outputs.cache-hit != 'true'
+        run: |
+          sudo mkdir -p /opt/xray
+          TAG=$(curl -fsSL https://api.github.com/repos/XTLS/Xray-core/releases/latest | jq -r .tag_name)
+          curl -fsSL "https://github.com/XTLS/Xray-core/releases/download/${TAG}/Xray-linux-64.zip" -o /tmp/xray.zip
+          sudo unzip -o /tmp/xray.zip -d /opt/xray
+          sudo chmod +x /opt/xray/xray
+
+      - name: Run checker
+        working-directory: scripts
+        env:
+          XRAY_BIN: /opt/xray/xray
+        run: python main.py
+
+      - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/working.txt output/working.json
-          git diff --staged --quiet || git commit -m "update: working configs"
-          git push
+          if git diff --staged --quiet; then
+            echo "Нет изменений — commit не нужен"
+          else
+            WORKING=$(jq -r .total_working output/working.json)
+            CHECKED=$(jq -r .total_checked output/working.json)
+            git commit -m "update: ${WORKING}/${CHECKED} working configs"
+            git push
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: working-configs
+          path: |
+            output/working.txt
+            output/working.json
+          retention-days: 7
