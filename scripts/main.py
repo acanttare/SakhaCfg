@@ -39,7 +39,8 @@ def main() -> None:
     configs, source_errors = collect()
     sources_count = len(load_sources())
     print(f"Источников: {sources_count}, ошибок загрузки: {len(source_errors)}")
-    print(f"Конфигов для проверки: {len(configs)}\n")
+    print(f"Конфигов для проверки: {len(configs)}")
+    print(f"Потоков: {os.environ.get('PARALLEL_WORKERS', '30')}\n")
 
     if not configs:
         print("Нет конфигов. Добавь ссылки в sources.txt")
