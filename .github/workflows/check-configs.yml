@@ -54,10 +54,10 @@ jobs:
         working-directory: scripts
         env:
           XRAY_BIN: /opt/xray/xray
-          PARALLEL_WORKERS: "15"
+          PARALLEL_WORKERS: "10"
           TEST_TIMEOUT: "10"
           TCP_TIMEOUT: "3"
-          XRAY_START_WAIT: "8"
+          XRAY_START_WAIT: "12"
         run: python main.py
 
       - name: Commit results
