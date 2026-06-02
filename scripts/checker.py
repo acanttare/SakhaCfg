@@ -18,12 +18,17 @@ import requests
 
 from parser import display_name, parse_uri, protocol, xray_config
 
-TEST_URL = os.environ.get("TEST_URL", "https://www.google.com/generate_204")
+_raw_test_urls = os.environ.get(
+    "TEST_URLS", os.environ.get("TEST_URL", "https://www.google.com/generate_204")
+)
+TEST_URLS = [u.strip() for u in _raw_test_urls.split(",") if u.strip()]
 TEST_TIMEOUT = int(os.environ.get("TEST_TIMEOUT", "8"))
 TCP_TIMEOUT = float(os.environ.get("TCP_TIMEOUT", "3"))
 XRAY_START_WAIT = float(os.environ.get("XRAY_START_WAIT", "2.0"))
 WORKERS = int(os.environ.get("PARALLEL_WORKERS", "30"))
 BASE_PORT = int(os.environ.get("BASE_PORT", "10808"))
+RETRY_PER_URL = int(os.environ.get("RETRY_PER_URL", "1"))
+VALIDATE_CONFIG = os.environ.get("XRAY_VALIDATE_CONFIG", "0") == "1"
 XRAY_BIN = Path(os.environ["XRAY_BIN"])
 
 _print_lock = threading.Lock()
@@ -75,17 +80,18 @@ def probe(uri: str, socks_port: int) -> tuple[bool, str, int]:
         cfg = Path(tmp) / "xray.json"
         cfg.write_text(json.dumps(xray_config(outbound, socks_port)), encoding="utf-8")
 
-        test = subprocess.run(
-            [str(XRAY_BIN), "run", "-test", "-c", str(cfg)],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.PIPE,
-            text=True,
-        )
-        if test.returncode != 0:
-            err = _compact_err(test.stderr)
-            if err:
-                return False, f"xray config invalid: {err}", 0
-            return False, f"xray config invalid (code {test.returncode})", 0
+        if VALIDATE_CONFIG:
+            test = subprocess.run(
+                [str(XRAY_BIN), "run", "-test", "-c", str(cfg)],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.PIPE,
+                text=True,
+            )
+            if test.returncode != 0:
+                err = _compact_err(test.stderr)
+                if err:
+                    return False, f"xray config invalid: {err}", 0
+                return False, f"xray config invalid (code {test.returncode})", 0
 
         proc = subprocess.Popen(
             [str(XRAY_BIN), "run", "-c", str(cfg)],
@@ -104,15 +110,22 @@ def probe(uri: str, socks_port: int) -> tuple[bool, str, int]:
                 return False, "xray start timeout", 0
 
             proxy = f"socks5h://127.0.0.1:{socks_port}"
-            resp = requests.get(
-                TEST_URL,
-                proxies={"http": proxy, "https": proxy},
-                timeout=TEST_TIMEOUT,
-            )
-            ms = int((time.time() - t0) * 1000)
-            if resp.status_code in (200, 204):
-                return True, "", ms
-            return False, f"HTTP {resp.status_code}", ms
+            last_err = "all test urls failed"
+            for test_url in TEST_URLS:
+                for _ in range(RETRY_PER_URL + 1):
+                    try:
+                        resp = requests.get(
+                            test_url,
+                            proxies={"http": proxy, "https": proxy},
+                            timeout=TEST_TIMEOUT,
+                        )
+                        ms = int((time.time() - t0) * 1000)
+                        if resp.status_code in (200, 204):
+                            return True, "", ms
+                        last_err = f"{test_url} -> HTTP {resp.status_code}"
+                    except requests.RequestException as exc:
+                        last_err = f"{test_url} -> {_compact_err(str(exc), 120)}"
+            return False, last_err, int((time.time() - t0) * 1000)
         except Exception as exc:
             return False, str(exc)[:120], int((time.time() - t0) * 1000)
         finally:
