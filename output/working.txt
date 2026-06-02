@@ -1,0 +1,65 @@
+vless://a6d5a889-2a4a-4b31-8892-e0820188e921@141.193.213.30:443?path=/my-wbv&security=tls&encryption=none&insecure=0&host=www.genflix.co.id.cyylr.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=www.genflix.co.id.cyylr.eu.cc#🌐 Anycast-IP | 🇨🇦 🇬🇧 🇮🇳 🇷🇺 [*CIDR]
+trojan://bb45f73f-795b-4a05-a8e0-ba717bce87e3@141.193.213.30:443?path=/id-tksi&security=tls&insecure=0&host=api24-normal.tiktokv.com.cyylr.eu.cc&type=ws&allowInsecure=0&sni=api24-normal.tiktokv.com.cyylr.eu.cc#🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]
+vless://@a_amr79@141.193.213.11:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&path=/my-wbv&security=tls&encryption=none&insecure=0&host=unnes.ac.id.cyylr.eu.cc&type=ws&allowInsecure=0&sni=unnes.ac.id.cyylr.eu.cc#🌐 Anycast-IP | 🇨🇦 🇬🇧 🇲🇾 🇷🇺 [*CIDR]
+vless://a6d5a889-2a4a-4b31-8892-e0820188e921@141.193.213.30:443?path=/my-wbv&security=tls&encryption=none&insecure=0&host=www.genflix.co.id.cyylr.eu.cc&type=ws&allowInsecure=0&sni=www.genflix.co.id.cyylr.eu.cc#🌐 Anycast-IP | 🇨🇦 🇬🇧 🇮🇳 🇲🇾 🇷🇺 [*CIDR]
+trojan://bb45f73f-795b-4a05-a8e0-ba717bce87e3@216.24.57.7:443?path=/id-tksi&security=tls&insecure=0&host=api24-normal.tiktokv.com.cyylr.eu.cc&type=ws&allowInsecure=0&sni=api24-normal.tiktokv.com.cyylr.eu.cc#🌐 Anycast-IP | 🇨🇦 🇬🇧 🇷🇺 [*CIDR]
+vless://@a_amr79@141.193.213.11:443?security=tls&type=ws&path=/my-wbv&host=unnes.ac.id.cyylr.eu.cc&sni=unnes.ac.id.cyylr.eu.cc&fp=chrome&encryption=none#🌐 Anycast-IP | 🇬🇧 🇲🇾 🇷🇺 [*CIDR]
+trojan://humanity@216.24.57.7:443?path=/assignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🌐 Anycast-IP | 🇫🇷 [*CIDR]
+vless://69548fb7-7468-0bb8-b24f-618ed3973a93@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2,http/1.1#🇩🇪 Germany — #63
+vless://bd55f42c-324d-1f40-b1fb-d36ab23757b2@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2,http/1.1#🇷🇺 Timeweb — #22
+vless://69548fb7-7468-03e8-b24f-618ed3973a93@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2,http/1.1#🇩🇪 Germany — #64
+vless://bd55f42c-324d-07d0-b1fb-d36ab23757b2@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2,http/1.1#🇷🇺 VK — #4
+vless://69548fb7-7468-07d0-b24f-618ed3973a93@89.208.231.191:52006?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&alpn=h2,http/1.1#🇷🇺 VK — #1
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@85.208.85.214:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn3-87.vk-cdnvideo.com#🇳🇱 The Netherlands — #207
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.137.16:8443?encryption=none&type=tcp&security=tls&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #48
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@85.208.85.214:8443?security=tls&type=tcp&sni=cdn9-33.vk-cdnvideo.com&fp=chrome&encryption=none#🇩🇪 Germany | 🌐 [*CIDR]
+vless://e2350ba4-16aa-455e-ae8b-f65102227cf4@158.160.11.45:443?encryption=none&type=ws&security=tls&path=/sequre/ws?ed=2560&fp=qq&sni=cloudflare.tyr-agentstvo.tech#🇳🇱 The Netherlands — #212
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.159.141:8443?encryption=none&type=tcp&security=tls&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #102
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@46.16.36.227:8443?encryption=none&type=tcp&security=tls&sni=cdn7-09.vk-cdnvideo.com#🇭🇺 Hungary — #166
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.140.29:8443?encryption=none&type=tcp&security=tls&sni=cdn7-39.vk-cdnvideo.com#🇸🇰 Slovakia — #337
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@85.208.85.91:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #55
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.159.141:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany | 🌐 [*CIDR]
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@89.232.177.114:8443?encryption=none&type=tcp&security=tls&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #65
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.138.158:8443?encryption=none&type=tcp&security=tls&sni=cdn7-09.vk-cdnvideo.com#🇭🇺 Hungary — #163
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.156.12:8443?encryption=none&type=tcp&security=tls&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #50
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.158.93:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #62
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.159.198:8443?encryption=none&type=tcp&security=tls&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany | 🌐 [*CIDR]
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.159.141:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #56
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.159.198:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #57
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@85.208.85.91:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany | 🌐 [*CIDR]
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@85.208.85.91:8443?encryption=none&type=tcp&security=tls&sni=cdn7-09.vk-cdnvideo.com#🇭🇺 Hungary — #165
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@85.208.85.91:8443?encryption=none&type=tcp&security=tls&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #60
+vless://3153c0d1-7fda-4729-b9d5-56acc7505222@185.242.19.249:443?encryption=none&type=xhttp&security=tls&path=/xhttppath&mode=auto&extra=null&fp=chrome&sni=top3259365054.mwscdn.ru#🌐 Anycast-IP | 🇳🇱 [*CIDR]
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.159.198:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany | 🌐 [*CIDR]
+vless://33612cbf-0639-4285-81da-f88eba1d4f85@5.42.113.229:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&sni=cloud.cdnru.net#🇷🇺 Timeweb — #19
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@213.171.31.0:8443?encryption=none&type=tcp&security=tls&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany | 🌐 [*CIDR]
+vless://3153c0d1-7fda-4729-b9d5-56acc7505222@185.242.19.249:443?encryption=none&type=xhttp&security=tls&path=/xhttppath&mode=auto&extra=null&fp=chrome&sni=top3259365054.mwscdn.ru#🇳🇱 The Netherlands — #206
+trojan://humanity@66.81.247.155:443?type=ws&security=tls&path=/assignment&sni=www.calmloud.com&fp=chrome&alpn=http%2F1.1&allowInsecure=1#🇫🇷 France [*CIDR]
+vless://3c7f7bea-74f3-4178-bca2-23252279dbca@185.242.19.249:443?encryption=none&type=xhttp&security=tls&path=/xhttppath&mode=auto&extra=null&fp=chrome&sni=top3259365054.mwscdn.ru#🌐 Anycast-IP | 🇳🇱 [*CIDR]
+vless://a36395df-862b-40cc-a7d5-e39ea8d04d73@185.242.19.250:443?encryption=none&type=xhttp&security=tls&path=/xhttppath&mode=auto&extra=null&fp=chrome&sni=top3259365054.mwscdn.ru#🌐 Anycast-IP | 🇳🇱 [*CIDR]
+vless://d2b8642c-5a17-4287-9b0c-0ad6a2f72f73@185.242.19.249:80?encryption=none&type=ws&security=none&path=/static&host=top28521690.mwscdn.ru#🇳🇱 The Netherlands — #297
+vless://8f0bb1ba-060b-4e33-a871-764f27002f92@185.242.19.249:80?encryption=none&type=ws&security=none&path=/static&host=top3491497032.mwscdn.ru#🇹🇷 Türkiye — #341
+vless://a36395df-862b-40cc-a7d5-e39ea8d04d73@185.242.19.249:443?encryption=none&type=xhttp&security=tls&path=/xhttppath&mode=auto&extra=null&fp=chrome&sni=top3259365054.mwscdn.ru#🌐 Anycast-IP | 🇳🇱 [*CIDR]
+vless://33612cbf-0639-4285-81da-f88eba1d4f85@5.42.113.229:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&sni=cloud.cdnru.net#🇷🇺 Timeweb — #20
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@213.171.31.0:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany | 🌐 [*CIDR]
+trojan://humanity@66.81.247.155:443?path=/assignment&security=tls&alpn=http/1.1&insecure=1&host=www.calmloud.com&fp=chrome&type=ws&allowInsecure=1&sni=www.calmloud.com#🇫🇷 France [*CIDR]
+vless://3c7f7bea-74f3-4178-bca2-23252279dbca@185.242.19.250:443?encryption=none&type=xhttp&security=tls&path=/xhttppath&mode=auto&extra=null&fp=chrome&sni=top3259365054.mwscdn.ru#🌐 Anycast-IP | 🇳🇱 [*CIDR]
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@213.171.31.0:8443?encryption=none&type=tcp&security=tls&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #54
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@213.171.31.0:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #58
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@85.208.85.214:8443?encryption=none&type=tcp&security=tls&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #95
+vless://8f0bb1ba-060b-4e33-a871-764f27002f92@185.242.19.249:80?encryption=none&type=ws&security=none&path=/static&host=top1847871446.mwscdn.ru#🇳🇱 The Netherlands — #230
+vless://9546a0a1-b379-4b65-b31a-56dab450eaeb@185.242.19.249:443?encryption=none&type=xhttp&security=tls&path=/xhttppath&mode=auto&extra=null&fp=chrome&sni=top3259365054.mwscdn.ru#🇳🇱 The Netherlands — #213
+vless://e2350ba4-16aa-455e-ae8b-f65102227cf4@158.160.11.45:443?encryption=none&type=ws&security=tls&path=/sequre/ws?ed=2560&host=cloudflare.tyr-agentstvo.tech&fp=qq&sni=cloudflare.tyr-agentstvo.tech&alpn=http/1.1#🇳🇱 The Netherlands — #211
+vless://33612cbf-0639-4285-81da-f88eba1d4f85@cloud.cdnru.net:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=tls&encryption=none&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=#🇷🇺 Russia | 🌐 [*CIDR]
+vless://f5518b09-4fd2-47cc-9fbf-b2608592dece@84.201.156.73:1337?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&sni=bc841.stardevs.top#🇩🇪 Germany — #49
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.156.24:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn3-87.vk-cdnvideo.com#🇳🇱 The Netherlands — #201
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@82.202.156.110:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn3-87.vk-cdnvideo.com#🇳🇱 The Netherlands — #200
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@85.208.85.214:8443?encryption=none&type=tcp&security=tls&fp=chrome&sni=cdn9-33.vk-cdnvideo.com#🇩🇪 Germany — #83
+vless://33612cbf-0639-4285-81da-f88eba1d4f85@cloud.cdnru.net:443?security=tls&type=tcp&sni=cloud.cdnru.net&fp=chrome&flow=xtls-rprx-vision&encryption=none#🇷🇺 Russia | 🌐 [*CIDR]
+vless://33612cbf-0639-4285-81da-f88eba1d4f85@5.42.113.229:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=tls&fp=chrome&sni=cloud.cdnru.net#🇷🇺 Russia | 🌐 [*CIDR]
+vless://e2350ba4-16aa-455e-ae8b-f65102227cf4@158.160.252.176:443?encryption=none&type=ws&security=tls&path=/sequre/ws?ed=2560&host=cloudflare.vhub.pro&fp=firefox&sni=cloudflare.vhub.pro&alpn=http/1.1#🇩🇪 Germany — #53
+vless://e2350ba4-16aa-455e-ae8b-f65102227cf4@158.160.214.183:443?encryption=none&type=ws&security=tls&path=/sequre/ws?ed=2560&fp=qq&sni=cloudflare.tyr-agentstvo.tech#🇳🇱 The Netherlands — #209
+vless://e2350ba4-16aa-455e-ae8b-f65102227cf4@158.160.103.206:443?encryption=none&type=ws&security=tls&path=/sequre/ws?ed=2560&fp=firefox&sni=cloudflare.tyr-agentstvo.tech#🇳🇱 The Netherlands — #202
+vless://e2350ba4-16aa-455e-ae8b-f65102227cf4@158.160.103.206:443?encryption=none&type=ws&security=tls&path=/sequre/ws?ed=2560&host=cloudflare.tyr-agentstvo.tech&fp=firefox&sni=cloudflare.tyr-agentstvo.tech&alpn=http/1.1#🇳🇱 The Netherlands — #205
+vless://d2b8642c-5a17-4287-9b0c-0ad6a2f72f73@185.242.19.249:80?encryption=none&type=ws&security=none&path=/static&host=top1847871446.mwscdn.ru#🇳🇱 The Netherlands — #298
+vless://e2350ba4-16aa-455e-ae8b-f65102227cf4@158.160.11.45:443?encryption=none&type=ws&security=tls&path=/sequre/ws?ed=2560&fp=firefox&sni=cloudflare.tyr-agentstvo.tech#🇳🇱 The Netherlands — #204
