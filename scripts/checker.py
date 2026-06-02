@@ -30,9 +30,11 @@ _print_lock = threading.Lock()
 _done = 0
 
 
-def _port_ready(host: str, port: int) -> bool:
+def _port_ready(host: str, port: int, proc: subprocess.Popen[str] | None = None) -> bool:
     deadline = time.time() + XRAY_START_WAIT
     while time.time() < deadline:
+        if proc is not None and proc.poll() is not None:
+            return False
         try:
             with socket.create_connection((host, port), timeout=0.3):
                 return True
@@ -69,11 +71,17 @@ def probe(uri: str, socks_port: int) -> tuple[bool, str, int]:
         proc = subprocess.Popen(
             [str(XRAY_BIN), "run", "-c", str(cfg)],
             stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
+            stderr=subprocess.PIPE,
+            text=True,
         )
         t0 = time.time()
         try:
-            if not _port_ready("127.0.0.1", socks_port):
+            if not _port_ready("127.0.0.1", socks_port, proc):
+                if proc.poll() is not None:
+                    err = (proc.stderr.read() if proc.stderr else "").strip()
+                    if err:
+                        return False, f"xray exited early: {err[:120]}", 0
+                    return False, "xray exited early", 0
                 return False, "xray start timeout", 0
 
             proxy = f"socks5h://127.0.0.1:{socks_port}"
