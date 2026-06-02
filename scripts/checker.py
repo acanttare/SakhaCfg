@@ -30,6 +30,11 @@ _print_lock = threading.Lock()
 _done = 0
 
 
+def _compact_err(text: str, limit: int = 200) -> str:
+    cleaned = " ".join((text or "").split())
+    return cleaned[:limit]
+
+
 def _port_ready(host: str, port: int, proc: subprocess.Popen[str] | None = None) -> bool:
     deadline = time.time() + XRAY_START_WAIT
     while time.time() < deadline:
@@ -52,7 +57,9 @@ def _tcp_alive(uri: str) -> bool:
             return True
         with socket.create_connection((host, port), timeout=TCP_TIMEOUT):
             return True
-    except OSError:
+    except (OSError, UnicodeError, ValueError):
+        # Invalid hostnames (e.g. broken IDNA labels) should be treated
+        # as unreachable endpoints, not as fatal checker errors.
         return False
 
 
@@ -68,6 +75,18 @@ def probe(uri: str, socks_port: int) -> tuple[bool, str, int]:
         cfg = Path(tmp) / "xray.json"
         cfg.write_text(json.dumps(xray_config(outbound, socks_port)), encoding="utf-8")
 
+        test = subprocess.run(
+            [str(XRAY_BIN), "run", "-test", "-c", str(cfg)],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.PIPE,
+            text=True,
+        )
+        if test.returncode != 0:
+            err = _compact_err(test.stderr)
+            if err:
+                return False, f"xray config invalid: {err}", 0
+            return False, f"xray config invalid (code {test.returncode})", 0
+
         proc = subprocess.Popen(
             [str(XRAY_BIN), "run", "-c", str(cfg)],
             stdout=subprocess.DEVNULL,
@@ -78,9 +97,9 @@ def probe(uri: str, socks_port: int) -> tuple[bool, str, int]:
         try:
             if not _port_ready("127.0.0.1", socks_port, proc):
                 if proc.poll() is not None:
-                    err = (proc.stderr.read() if proc.stderr else "").strip()
+                    err = _compact_err(proc.stderr.read() if proc.stderr else "")
                     if err:
-                        return False, f"xray exited early: {err[:120]}", 0
+                        return False, f"xray exited early: {err}", 0
                     return False, "xray exited early", 0
                 return False, "xray start timeout", 0
 
