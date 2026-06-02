@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SakhaCfg Admin</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 24px auto; padding: 0 12px; }
+    h1 { margin-bottom: 8px; }
+    .card { border: 1px solid #ddd; border-radius: 10px; padding: 12px; margin-bottom: 14px; }
+    input, button { padding: 8px; margin: 4px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border-bottom: 1px solid #eee; padding: 8px; text-align: left; font-size: 14px; }
+    code { background: #f3f3f3; padding: 2px 5px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>SakhaCfg Subscription Admin</h1>
+  <p>Укажи admin token и управляй пользователями/сроком/лимитом.</p>
+
+  <div class="card">
+    <label>Admin token:</label>
+    <input id="token" type="password" placeholder="x-admin-token" style="width: 380px;" />
+    <button onclick="loadUsers()">Обновить список</button>
+  </div>
+
+  <div class="card">
+    <h3>Создать пользователя</h3>
+    <input id="new-username" placeholder="username" />
+    <input id="new-expires" type="date" />
+    <input id="new-limit" type="number" placeholder="limit gb" value="100" />
+    <button onclick="createUser()">Создать</button>
+    <div id="create-result"></div>
+  </div>
+
+  <div class="card">
+    <h3>Пользователи</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th><th>User</th><th>Active</th><th>Expires</th><th>Limit</th><th>Used</th><th>Token</th>
+        </tr>
+      </thead>
+      <tbody id="users"></tbody>
+    </table>
+  </div>
+
+  <script>
+    function adminHeaders() {
+      return { "Content-Type": "application/json", "x-admin-token": document.getElementById("token").value };
+    }
+
+    async function loadUsers() {
+      const resp = await fetch("/admin/users", { headers: adminHeaders() });
+      if (!resp.ok) {
+        alert("Ошибка загрузки пользователей: " + resp.status);
+        return;
+      }
+      const users = await resp.json();
+      const tbody = document.getElementById("users");
+      tbody.innerHTML = "";
+      for (const u of users) {
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${u.id}</td>
+          <td>${u.username}</td>
+          <td>${u.is_active ? "yes" : "no"}</td>
+          <td>${u.expires_at}</td>
+          <td>${u.limit_gb} GB</td>
+          <td>${u.used_gb.toFixed(2)} GB</td>
+          <td><code>${u.token}</code></td>
+        `;
+        tbody.appendChild(tr);
+      }
+    }
+
+    async function createUser() {
+      const payload = {
+        username: document.getElementById("new-username").value.trim(),
+        expires_at: document.getElementById("new-expires").value,
+        limit_gb: Number(document.getElementById("new-limit").value)
+      };
+      const resp = await fetch("/admin/users", {
+        method: "POST",
+        headers: adminHeaders(),
+        body: JSON.stringify(payload)
+      });
+      const data = await resp.json();
+      const box = document.getElementById("create-result");
+      if (!resp.ok) {
+        box.textContent = "Ошибка: " + (data.detail || resp.status);
+        return;
+      }
+      box.innerHTML = `Создано: <b>${data.username}</b><br/>Токен: <code>${data.token}</code><br/>URL: <code>/sub/${data.token}</code>`;
+      loadUsers();
+    }
+  </script>
+</body>
+</html>
