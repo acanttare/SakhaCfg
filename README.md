@@ -1,4 +1,4 @@
-# SakhaCfg - Smart Xray Config Checker
+# SakhaNet - Smart Xray Config Checker
 
 Большой автоматизированный пайплайн для проверки прокси-конфигов (VLESS/VMESS/Trojan/SS) через Xray в GitHub Actions.
 
