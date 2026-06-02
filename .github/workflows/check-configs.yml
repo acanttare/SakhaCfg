@@ -3,7 +3,7 @@ name: Check configs
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */4 * * *"
   push:
     paths:
       - sources.txt
@@ -34,6 +34,9 @@ jobs:
       - name: Install Python deps
         run: pip install -r scripts/requirements.txt
 
+      - name: Smoke test scripts
+        run: python -m py_compile scripts/*.py
+
       - name: Setup Xray
         uses: actions/cache@v4
         id: xray-cache
@@ -51,20 +54,31 @@ jobs:
           sudo chmod +x /opt/xray/xray
 
       - name: Run checker
+        id: run-checker
         working-directory: scripts
+        continue-on-error: true
         env:
           XRAY_BIN: /opt/xray/xray
-          PARALLEL_WORKERS: "10"
+          PARALLEL_WORKERS: "20"
           TEST_TIMEOUT: "10"
+          TEST_URLS: "http://cp.cloudflare.com/generate_204,https://www.gstatic.com/generate_204,https://www.google.com/generate_204"
           TCP_TIMEOUT: "3"
           XRAY_START_WAIT: "12"
+          RETRY_PER_URL: "1"
+          XRAY_VALIDATE_CONFIG: "0"
+          SUBSCRIPTION_TITLE: "SakhaCfg Subscription"
+          SUBSCRIPTION_EXPIRES_AT: "2026-12-31"
+          SUBSCRIPTION_LIMIT_GB: "100"
+          MAX_WORKING_CONFIGS: "50"
+          GEO_TIMEOUT: "5"
         run: python main.py
 
       - name: Commit results
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/working.txt output/working.json
+          git add output/working.txt output/working.json output/failed.json
           if git diff --staged --quiet; then
             echo "Нет изменений — commit не нужен"
           else
@@ -75,10 +89,19 @@ jobs:
           fi
 
       - name: Upload artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: working-configs
           path: |
             output/working.txt
             output/working.json
+            output/failed.json
           retention-days: 7
+
+      - name: Mark checker status
+        if: always()
+        run: |
+          if [ "${{ steps.run-checker.outcome }}" != "success" ]; then
+            echo "::warning::Checker step completed with issues. See logs and output/failed.json."
+          fi
