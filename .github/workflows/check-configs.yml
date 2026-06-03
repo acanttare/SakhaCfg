@@ -3,7 +3,7 @@ name: Check configs
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "0 */6 * * *"
   push:
     paths:
       - sources.txt
@@ -59,18 +59,20 @@ jobs:
         continue-on-error: true
         env:
           XRAY_BIN: /opt/xray/xray
-          PARALLEL_WORKERS: "20"
-          TEST_TIMEOUT: "10"
-          TEST_URLS: "http://cp.cloudflare.com/generate_204,https://www.gstatic.com/generate_204,https://www.google.com/generate_204"
-          TCP_TIMEOUT: "3"
-          XRAY_START_WAIT: "12"
-          RETRY_PER_URL: "1"
+          PARALLEL_WORKERS: "32"
+          TEST_TIMEOUT: "5"
+          TEST_URLS: "http://cp.cloudflare.com/generate_204"
+          TCP_TIMEOUT: "1.5"
+          XRAY_START_WAIT: "4"
+          RETRY_PER_URL: "0"
+          HTTP_CONNECT_TIMEOUT: "2"
+          SKIP_TCP_CHECK: "0"
           XRAY_VALIDATE_CONFIG: "0"
           SUBSCRIPTION_TITLE: "SakhaCfg Subscription"
           SUBSCRIPTION_EXPIRES_AT: "2026-12-31"
           SUBSCRIPTION_LIMIT_GB: "100"
           MAX_WORKING_CONFIGS: "50"
-          GEO_TIMEOUT: "5"
+          GEO_TIMEOUT: "2"
         run: python main.py
 
       - name: Commit results
