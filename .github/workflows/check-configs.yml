@@ -61,7 +61,7 @@ jobs:
           XRAY_BIN: /opt/xray/xray
           PARALLEL_WORKERS: "32"
           TEST_TIMEOUT: "5"
-          TEST_URLS: "http://cp.cloudflare.com/generate_204"
+          TEST_URLS: "https://www.gstatic.com/generate_204,http://connectivitycheck.gstatic.com/generate_204"
           TCP_TIMEOUT: "1.5"
           XRAY_START_WAIT: "4"
           RETRY_PER_URL: "0"
