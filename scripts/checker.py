@@ -22,13 +22,15 @@ _raw_test_urls = os.environ.get(
     "TEST_URLS", os.environ.get("TEST_URL", "https://www.google.com/generate_204")
 )
 TEST_URLS = [u.strip() for u in _raw_test_urls.split(",") if u.strip()]
-TEST_TIMEOUT = int(os.environ.get("TEST_TIMEOUT", "8"))
-TCP_TIMEOUT = float(os.environ.get("TCP_TIMEOUT", "3"))
-XRAY_START_WAIT = float(os.environ.get("XRAY_START_WAIT", "2.0"))
-WORKERS = int(os.environ.get("PARALLEL_WORKERS", "30"))
+TEST_TIMEOUT = float(os.environ.get("TEST_TIMEOUT", "6"))
+TCP_TIMEOUT = float(os.environ.get("TCP_TIMEOUT", "1.5"))
+XRAY_START_WAIT = float(os.environ.get("XRAY_START_WAIT", "4"))
+WORKERS = int(os.environ.get("PARALLEL_WORKERS", "32"))
 BASE_PORT = int(os.environ.get("BASE_PORT", "10808"))
-RETRY_PER_URL = int(os.environ.get("RETRY_PER_URL", "1"))
+RETRY_PER_URL = int(os.environ.get("RETRY_PER_URL", "0"))
+SKIP_TCP_CHECK = os.environ.get("SKIP_TCP_CHECK", "0") == "1"
 VALIDATE_CONFIG = os.environ.get("XRAY_VALIDATE_CONFIG", "0") == "1"
+HTTP_CONNECT_TIMEOUT = float(os.environ.get("HTTP_CONNECT_TIMEOUT", "3"))
 XRAY_BIN = Path(os.environ["XRAY_BIN"])
 
 _print_lock = threading.Lock()
@@ -49,7 +51,7 @@ def _port_ready(host: str, port: int, proc: subprocess.Popen[str] | None = None)
             with socket.create_connection((host, port), timeout=0.3):
                 return True
         except OSError:
-            time.sleep(0.05)
+            time.sleep(0.02)
     return False
 
 
@@ -69,7 +71,7 @@ def _tcp_alive(uri: str) -> bool:
 
 
 def probe(uri: str, socks_port: int) -> tuple[bool, str, int]:
-    if not _tcp_alive(uri):
+    if not SKIP_TCP_CHECK and not _tcp_alive(uri):
         return False, "host unreachable", 0
 
     outbound = parse_uri(uri)
@@ -96,20 +98,17 @@ def probe(uri: str, socks_port: int) -> tuple[bool, str, int]:
         proc = subprocess.Popen(
             [str(XRAY_BIN), "run", "-c", str(cfg)],
             stdout=subprocess.DEVNULL,
-            stderr=subprocess.PIPE,
-            text=True,
+            stderr=subprocess.DEVNULL,
         )
         t0 = time.time()
         try:
             if not _port_ready("127.0.0.1", socks_port, proc):
                 if proc.poll() is not None:
-                    err = _compact_err(proc.stderr.read() if proc.stderr else "")
-                    if err:
-                        return False, f"xray exited early: {err}", 0
                     return False, "xray exited early", 0
                 return False, "xray start timeout", 0
 
             proxy = f"socks5h://127.0.0.1:{socks_port}"
+            http_timeout = (HTTP_CONNECT_TIMEOUT, TEST_TIMEOUT)
             last_err = "all test urls failed"
             for test_url in TEST_URLS:
                 for _ in range(RETRY_PER_URL + 1):
@@ -117,7 +116,7 @@ def probe(uri: str, socks_port: int) -> tuple[bool, str, int]:
                         resp = requests.get(
                             test_url,
                             proxies={"http": proxy, "https": proxy},
-                            timeout=TEST_TIMEOUT,
+                            timeout=http_timeout,
                         )
                         ms = int((time.time() - t0) * 1000)
                         if resp.status_code in (200, 204):
@@ -129,11 +128,12 @@ def probe(uri: str, socks_port: int) -> tuple[bool, str, int]:
         except Exception as exc:
             return False, str(exc)[:120], int((time.time() - t0) * 1000)
         finally:
-            proc.kill()
-            try:
-                proc.wait(timeout=1)
-            except subprocess.TimeoutExpired:
-                pass
+            if proc.poll() is None:
+                proc.kill()
+                try:
+                    proc.wait(timeout=0.3)
+                except subprocess.TimeoutExpired:
+                    pass
 
 
 def _check_one(item: dict, socks_port: int, total: int) -> tuple[dict | None, dict | None]:
