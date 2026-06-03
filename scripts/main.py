@@ -10,7 +10,9 @@ import base64
 import json
 import os
 import sys
+import threading
 import urllib.parse
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -67,22 +69,37 @@ def _host_from_uri(uri: str) -> str:
         return ""
 
 
-def _country_for_host(host: str, cache: dict[str, tuple[str, str]]) -> tuple[str, str]:
+def _country_for_host(host: str, cache: dict[str, tuple[str, str]], lock: threading.Lock) -> tuple[str, str]:
     if not host:
         return "UN", "Unknown"
-    if host in cache:
-        return cache[host]
+    with lock:
+        if host in cache:
+            return cache[host]
     try:
         url = GEO_URL.format(host=urllib.parse.quote(host, safe=""))
         resp = requests.get(url, timeout=GEO_TIMEOUT)
         data = resp.json()
         code = str(data.get("country_code", "")).upper() or "UN"
         name = str(data.get("country", "")).strip() or "Unknown"
-        cache[host] = (code, name)
-        return cache[host]
+        result = (code, name)
     except Exception:
-        cache[host] = ("UN", "Unknown")
-        return cache[host]
+        result = ("UN", "Unknown")
+    with lock:
+        cache[host] = result
+    return result
+
+
+def _label_row(row: dict, cache: dict[str, tuple[str, str]], lock: threading.Lock) -> dict:
+    host = _host_from_uri(row["config"])
+    cc, country = _country_for_host(host, cache, lock)
+    flag = _flag_from_country_code(cc)
+    label = f"{row['protocol']}({flag} {cc})"
+    row["country_code"] = cc
+    row["country"] = country
+    row["flag"] = flag
+    row["name"] = label
+    row["config"] = _apply_label(row["config"], label)
+    return row
 
 
 def _apply_label(uri: str, label: str) -> str:
@@ -119,16 +136,10 @@ def main() -> None:
         working = working[:MAX_WORKING_CONFIGS]
 
     geo_cache: dict[str, tuple[str, str]] = {}
-    for row in working:
-        host = _host_from_uri(row["config"])
-        cc, country = _country_for_host(host, geo_cache)
-        flag = _flag_from_country_code(cc)
-        label = f"{row['protocol']}({flag} {cc})"
-        row["country_code"] = cc
-        row["country"] = country
-        row["flag"] = flag
-        row["name"] = label
-        row["config"] = _apply_label(row["config"], label)
+    geo_lock = threading.Lock()
+    if working:
+        with ThreadPoolExecutor(max_workers=12) as pool:
+            working = list(pool.map(lambda r: _label_row(r, geo_cache, geo_lock), working))
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
