@@ -2,15 +2,4 @@
 # expires_at: 2026-12-31
 # limit_gb: 100
 
-vless://57cf2a3c-ec33-4fac-bb1a-3c6a6ce841dd@68.221.221.22:2064?encryption=none&security=none&type=tcp&headerType=none#vless%28%F0%9F%87%AA%F0%9F%87%B8%20ES%29
-vless://cb2aa79f-8d64-4789-809b-da67b6d72417@68.221.221.22:2059?encryption=none&type=tcp#vless%28%F0%9F%87%AA%F0%9F%87%B8%20ES%29
-vless://01e0b37a-95e4-4c38-bd89-fef1881273ff@68.221.221.22:2053?encryption=none&type=tcp#vless%28%F0%9F%87%AA%F0%9F%87%B8%20ES%29
-vless://324f9ebf-63cc-4e41-b7d6-530f9eafe72b@68.221.221.22:2051?encryption=none&type=tcp#vless%28%F0%9F%87%AA%F0%9F%87%B8%20ES%29
-vless://469bc714-57c1-4091-8913-ff804b38bd3a@naseza.tarfiq.ir:443?encryption=none&type=ws&security=tls&host=teranko.global.ssl.fastly.net&path=/&sni=global.fastly.com&allowInsecure=0&insecure=0&fp=chrome#vless%28%F0%9F%87%BA%F0%9F%87%B3%20UN%29
-vless://469bc714-57c1-4091-8913-ff804b38bd3a@naseza.tarfiq.ir:443?encryption=none&type=ws&security=tls&host=teranko.global.ssl.fastly.net&path=/&sni=global.fastly.com&allowInsecure=0&insecure=0&fp=firefox#vless%28%F0%9F%87%BA%F0%9F%87%B3%20UN%29
-vless://469bc714-57c1-4091-8913-ff804b38bd3a@naseza.tarfiq.ir:443?encryption=none&type=ws&security=tls&host=teranko.global.ssl.fastly.net&path=/&sni=global.fastly.com&allowInsecure=0&insecure=0&fp=safari#vless%28%F0%9F%87%BA%F0%9F%87%B3%20UN%29
-vless://469bc714-57c1-4091-8913-ff804b38bd3a@tehran.sorixset.ir:443?encryption=none&type=ws&security=tls&host=Tazia.global.ssl.fastly.net&path=/&sni=global.fastly.com&allowInsecure=0&insecure=0&fp=qq#vless%28%F0%9F%87%BA%F0%9F%87%B3%20UN%29
-vless://469bc714-57c1-4091-8913-ff804b38bd3a@tehran.sorixset.ir:443?encryption=none&type=ws&security=tls&host=Tazia.global.ssl.fastly.net&path=/&sni=global.fastly.com&allowInsecure=0&insecure=0&fp=ios#vless%28%F0%9F%87%BA%F0%9F%87%B3%20UN%29
-vless://469bc714-57c1-4091-8913-ff804b38bd3a@tehran.sorixset.ir:443?encryption=none&type=ws&security=tls&host=Tazia.global.ssl.fastly.net&path=/&sni=global.fastly.com&allowInsecure=0&insecure=0&fp=edge#vless%28%F0%9F%87%BA%F0%9F%87%B3%20UN%29
-vless://469bc714-57c1-4091-8913-ff804b38bd3a@naseza.tarfiq.ir:443?encryption=none&type=ws&security=tls&host=teranko.global.ssl.fastly.net&path=/&sni=global.fastly.com&allowInsecure=0&insecure=0&fp=edge#vless%28%F0%9F%87%BA%F0%9F%87%B3%20UN%29
-vless://469bc714-57c1-4091-8913-ff804b38bd3a@tehran.sorixset.ir:443?encryption=none&type=ws&security=tls&host=Tazia.global.ssl.fastly.net&path=/&sni=global.fastly.com&allowInsecure=0&insecure=0&fp=safari#vless%28%F0%9F%87%BA%F0%9F%87%B3%20UN%29
+vless://7b2ce6b0-6d2b-4926-b7bf-6247eb1a0050@188.225.47.234:4100?encryption=none&path=/v1&security=none&type=ws#vless%28%F0%9F%87%B7%F0%9F%87%BA%20RU%29
