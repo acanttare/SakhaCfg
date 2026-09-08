@@ -2,3 +2,4 @@
 # expires_at: 2026-12-31
 # limit_gb: 100
 
+vless://55ad1449-4449-4554-b936-aba5bc5cf278@185.178.208.176:443?alpn=h3,h2&encryption=none&fp=chrome&host=founders-blog.online&path=/stream/615428/socket&security=tls&sni=founders-blog.online&type=ws#vless%28%F0%9F%87%B7%F0%9F%87%BA%20RU%29
