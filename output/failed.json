@@ -1,328 +1,8 @@
 [
   {
-    "config": "vless://d16f7276-b967-440d-88b7-76945654ed55@188.225.79.22:443?encryption=none&fp=ios&mode=gun&pbk=LqyEitRDFcMxFuH45Vx1551cOqrI6UHYvkKgs7gNaho&security=reality&serviceName=grpc-baf3bc8498&sid=e347493990237143&sni=quartzops.blog&type=grpc#🇷🇺 Selectel — #3",
-    "protocol": "vless",
-    "name": "3",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vless://d16f7276-b967-440d-88b7-76945654ed55@188.225.79.22:443?encryption=none&fp=chrome&mode=gun&pbk=LqyEitRDFcMxFuH45Vx1551cOqrI6UHYvkKgs7gNaho&security=reality&serviceName=grpc-baf3bc8498&sid=e347493990237143&sni=quartzops.blog&type=grpc#🇷🇺 Selectel — #2",
-    "protocol": "vless",
-    "name": "2",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@95.129.236.149:443?alpn=http/1.1&encryption=none&fp=firefox&path=/gateway/v1/ws/74c4d5e82a8e50ccf09fc628c17dc9be&security=tls&sni=d.nehtar.ru&type=ws#🇩🇪 Germany — #25",
-    "protocol": "vless",
-    "name": "25",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 1964,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.86.145.112:10452?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=L1Ug_ELbeZ_5q9QRzO5Lg_ZMkus9n72aiUfvFirN9Vo&security=reality&sid=c8a79c7b64adca2a&sni=passport.yandex.ru&spx=/&type=raw#🇩🇪 Germany — #29",
-    "protocol": "vless",
-    "name": "29",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 6401,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.86.147.184:9449?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA&security=reality&sid=62002c0a685ac208&sni=passport.yandex.ru&spx=/&type=raw#🇩🇪 Germany — #26",
-    "protocol": "vless",
-    "name": "26",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 6705,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.86.147.143:7443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To&security=reality&sid=190c27ae5f2e4d2c&sni=passport.yandex.ru&spx=/&type=raw#🇩🇪 Germany — #19",
-    "protocol": "vless",
-    "name": "19",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 6706,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@87.242.94.66:7452?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To&security=reality&sid=190c27ae5f2e4d2c&sni=passport.yandex.ru&spx=/&type=raw#🇩🇪 Germany — #18",
-    "protocol": "vless",
-    "name": "18",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 6823,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://c720cb74-4c84-4fce-b8ae-637dbaa16199@185.178.208.140:443?alpn=http/1.1&encryption=none&fp=qq&host=gran-game.pro&path=/static/events/900598fa7500/&security=tls&sni=gran-game.pro&type=ws#🇩🇪 Germany — #14",
-    "protocol": "vless",
-    "name": "14",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7155,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7955bf18-35c4-412d-aabd-c0b36c793063@185.178.208.140:443?alpn=http/1.1&encryption=none&fp=safari&host=gran-game.pro&path=/static/events/900598fa7500/&security=tls&sni=gran-game.pro&type=ws#🇩🇪 Germany — #13",
-    "protocol": "vless",
-    "name": "13",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7159,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://d16f7276-b967-440d-88b7-76945654ed55@188.225.79.22:443?encryption=none&fp=firefox&mode=gun&pbk=LqyEitRDFcMxFuH45Vx1551cOqrI6UHYvkKgs7gNaho&security=reality&serviceName=grpc-baf3bc8498&sid=e347493990237143&sni=quartzops.blog&type=grpc#🇷🇺 Selectel — #1",
-    "protocol": "vless",
-    "name": "1",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7215,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.234:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=AD7roAsP-vrlxeyfnVEWj7Cq_2viTSICXo2Psm6B_3E&security=reality&sid=cb425a961bb7d67c&sni=max.ru&spx=/&type=raw#🇩🇪 Germany — #20",
-    "protocol": "vless",
-    "name": "20",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7257,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.175:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=ZO7C9aMpoVJ6CmkKWUBS20eKe542_tGIc6wZFGB-yjY&security=reality&sid=b4e5b7cefcd0d47c&sni=www.vk.com&spx=/&type=raw#🇩🇪 Germany — #31",
-    "protocol": "vless",
-    "name": "31",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7276,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.175:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=2QoNARj5aaa5-kUEiwx38KzbbiENQZ95V7x9jFo6f2A&security=reality&sid=88a84e3390fcf4a7&sni=max.ru&spx=/&type=raw#🇩🇪 Germany — #28",
-    "protocol": "vless",
-    "name": "28",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7298,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.79:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=fsyvGBPzzwpnSA0UnJML_cDqviNSEdj9zktpC1EeFhY&security=reality&sid=743541f932fa3959&sni=yandex.ru&spx=/&type=raw#🇩🇪 Germany — #22",
-    "protocol": "vless",
-    "name": "22",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7309,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.79:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=lIgF8B3ICGAQ6ExbRe9YDu8ZD1Ozzqu7-YO7hfuXfRw&security=reality&sid=cc8069f6c2cbcb32&sni=api.ok.ru&spx=/&type=raw#🇩🇪 Germany — #32",
-    "protocol": "vless",
-    "name": "32",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7298,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.79:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=7o36V1H4H_34kTMpwCfJmDB1bbd21Rgbk2dM_dAonyM&security=reality&sid=0bb3fbdc6cb178d4&sni=www.vk.com&spx=/&type=raw#🇩🇪 Germany — #17",
-    "protocol": "vless",
-    "name": "17",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7320,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://00d09ead-4080-4c39-a75d-be7dcabe77f4@217.19.122.170:2083?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=Zy-GGHQ4J0M5RtpGPF7MUabmQo8nNr9iohVfyrmSGEY&security=reality&sid=7e704e370213f498&sni=bm6.hat.onl&type=raw#🇦🇪 United Arab Emirates — #5",
-    "protocol": "vless",
-    "name": "5",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7303,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.79:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=AD7roAsP-vrlxeyfnVEWj7Cq_2viTSICXo2Psm6B_3E&security=reality&sid=cb425a961bb7d67c&sni=max.ru&spx=/&type=raw#🇩🇪 Germany — #15",
-    "protocol": "vless",
-    "name": "15",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7347,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.175:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=1ea_kTf2MvXh9PtpzQdjQWb5ls5BjyUtSbn-qiR8ZXk&security=reality&sid=cb0e256070ac91c7&sni=yandex.ru&spx=/&type=raw#🇩🇪 Germany — #30",
-    "protocol": "vless",
-    "name": "30",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7359,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@95.167.57.130:9443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Te3ZcFFTilb6_j4hdotSvXaRYBzGuNiRxuBh8n1NezU&security=reality&sid=91d2d3db690f4b59&sni=passport.yandex.ru&type=raw#🇩🇪 Germany — #23",
-    "protocol": "vless",
-    "name": "23",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7331,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.175:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Eutx4frdhG1y7THj7k3CjazAsrCMj932RtbV4a1QfQk&security=reality&sid=d5b6308860d578bb&sni=api.ok.ru&spx=/&type=raw#🇩🇪 Germany — #24",
-    "protocol": "vless",
-    "name": "24",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7359,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.234:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=fsyvGBPzzwpnSA0UnJML_cDqviNSEdj9zktpC1EeFhY&security=reality&sid=743541f932fa3959&sni=yandex.ru&spx=/&type=raw#🇩🇪 Germany — #21",
-    "protocol": "vless",
-    "name": "21",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7357,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.234:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=lIgF8B3ICGAQ6ExbRe9YDu8ZD1Ozzqu7-YO7hfuXfRw&security=reality&sid=cc8069f6c2cbcb32&sni=api.ok.ru&spx=/&type=raw#🇩🇪 Germany — #16",
-    "protocol": "vless",
-    "name": "16",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7396,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@185.229.9.234:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=7o36V1H4H_34kTMpwCfJmDB1bbd21Rgbk2dM_dAonyM&security=reality&sid=0bb3fbdc6cb178d4&sni=www.vk.com&spx=/&type=raw#🇩🇪 Germany — #27",
-    "protocol": "vless",
-    "name": "27",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7382,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://00d09ead-4080-4c39-a75d-be7dcabe77f4@217.19.122.170:2053?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=GyYuIjccJJRQZM72MGdBQEwGwGR9e0UMNlJxw0sQR2M&security=reality&sid=38560e0003d69843&sni=bm1.hat.onl&type=raw#🇦🇪 United Arab Emirates — #6",
-    "protocol": "vless",
-    "name": "6",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7295,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://00d09ead-4080-4c39-a75d-be7dcabe77f4@217.19.122.170:2053?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=GyYuIjccJJRQZM72MGdBQEwGwGR9e0UMNlJxw0sQR2M&security=reality&sid=38560e0003d69843&sni=bm1.hat.onl&type=raw#🇦🇪 United Arab Emirates — #4",
-    "protocol": "vless",
-    "name": "4",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7304,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://7aca8031-a6b8-48f9-a8e3-ec5248172c11@91.185.83.105:9443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Te3ZcFFTilb6_j4hdotSvXaRYBzGuNiRxuBh8n1NezU&security=reality&sid=91d2d3db690f4b59&sni=passport.yandex.ru&type=raw#🇩🇪 Germany — #33",
-    "protocol": "vless",
-    "name": "33",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 6526,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://7955bf18-35c4-412d-aabd-c0b36c793063@91.185.83.44:443?encryption=none&fp=firefox&host=nguyxejonb.rucdncomp.pro&path=/service/telemetry/0294da469190/&security=tls&sni=nguyxejonb.rucdncomp.pro&type=ws#🇳🇱 The Netherlands — #34",
-    "protocol": "vless",
-    "name": "34",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7035,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://c720cb74-4c84-4fce-b8ae-637dbaa16199@91.185.83.44:443?alpn=http/1.1&encryption=none&fp=firefox&host=nguyxejonb.rucdncomp.pro&path=/service/telemetry/0294da469190/&security=tls&sni=nguyxejonb.rucdncomp.pro&type=ws#🇳🇱 The Netherlands — #35",
-    "protocol": "vless",
-    "name": "35",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7039,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "hysteria2://gf1:gfhysteria2024@5.129.235.85:443/?insecure=1&sni=vk.com#🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "protocol": "hysteria2",
-    "name": "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "unsupported protocol"
-  },
-  {
-    "config": "hysteria2://gf1:gfhysteria2024@5.129.235.85:443?insecure=1#🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "protocol": "hysteria2",
-    "name": "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "unsupported protocol"
-  },
-  {
-    "config": "hysteria2://gf1:gfhysteria2024@5.129.235.85:443?insecure=1&sni=5.129.235.85#🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "protocol": "hysteria2",
-    "name": "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "unsupported protocol"
-  },
-  {
-    "config": "hysteria2://gf1:gfhysteria2024@5.129.235.85:443?insecure=1&sni=google.com#🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "protocol": "hysteria2",
-    "name": "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "unsupported protocol"
-  },
-  {
-    "config": "vmess://eyJ2IjoiMiIsInBzIjoiLvCWpZQg3YEgy5bWtPCfm7jgvITLlsKwLiB8IFtCTF0iLCJhZGQiOiIzOS4xMDguMTEzLjEyNyIsInBvcnQiOiIxMDA4NiIsImlkIjoiNGZjNTQzZDUtMjNjZS00NTU2LWFlMmItMDE2ODVlZGQ0Mzk3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii8iLCJ0bHMiOiIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0?fp=ios",
+    "config": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6ogR2VybWFueSwgTnVyZW1iZXJnIHwg8J+MkCB8IFtCTF0iLCJhZGQiOiJnZXRuZXQuc2VydmVyc3ViYXNsaS50b3AiLCJwb3J0IjoiODA4MCIsImlkIjoiZDJiNjdlNDgtYzM0MS00N2JhLThjYWEtNTY1OGRmNjkzYWM0IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJwYXRoIjoiLyIsInNuaSI6ImdldG5ldC5zZXJ2ZXJzdWJhc2xpLnRvcCIsImZwIjoiY2hyb21lIiwiYWxwbiI6Imh0dHAvMS4xIiwiYWxsb3dJbnNlY3VyZSI6IjEiLCJpbnNlY3VyZSI6IjEiLCJzY3kiOiJhdXRvIiwiaG9zdCI6IiJ9",
     "protocol": "vmess",
-    "name": "eyj2ijoimiisinbzijoilvcwpzqg3yegy5bwtpcfm7jgvitllskwlib8iftctf0ilcjhzgqioiizos4xmdgumtezljeynyisinbvcnqioiixmda4niisimlkijoingzjntqzzdutmjnjzs00ntu2lwflmmitmde2odvlzgq0mzk3iiwiywlkijoimcisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwicgf0aci6ii8ilcj0bhmioiiilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJ2IjoiMiIsInBzIjoiLvCWpZQg3YEgy5bWtPCfm7jgvITLlsKwLiB8IFtCTF0iLCJhZGQiOiIzOS4xMDguMTEzLjEyNyIsInBvcnQiOiIxMDA4NiIsImlkIjoiNGZjNTQzZDUtMjNjZS00NTU2LWFlMmItMDE2ODVlZGQ0Mzk3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii8iLCJ0bHMiOiIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0?fp=safari",
-    "protocol": "vmess",
-    "name": "eyj2ijoimiisinbzijoilvcwpzqg3yegy5bwtpcfm7jgvitllskwlib8iftctf0ilcjhzgqioiizos4xmdgumtezljeynyisinbvcnqioiixmda4niisimlkijoingzjntqzzdutmjnjzs00ntu2lwflmmitmde2odvlzgq0mzk3iiwiywlkijoimcisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwicgf0aci6ii8ilcj0bhmioiiilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJhZGQiOiJkZS56aG91LXl1ZmFuLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiZGUuemhvdS15dWZhbi5jb20iLCJpZCI6ImYzOGU1OTFkLWQxM2EtNGMzMC05NzYzLTZiZTNhZDY1ZjNlYyIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4ep8J+HqiBHZXJtYW55LCBEw7xzc2VsZG9yZiB8IPCfjJAgfCBbQkxdIiwic2N5IjoiYXV0byIsInNuaSI6ImRlLnpob3UteXVmYW4uY29tIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9?fp=ios",
-    "protocol": "vmess",
-    "name": "eyjhzgqioijkzs56ag91lxl1zmfulmnvbsisimfpzci6ijailcjhbhbuijoiiiwiznaioiiilcjob3n0ijoizguuemhvds15dwzhbi5jb20ilcjpzci6imyzogu1otfklwqxm2etngmzmc05nzyzltziztnhzdy1zjnlyyisim5ldci6inrjccisinbhdggioiiilcjwb3j0ijoindqziiwichmioilwn4ep8j+hqibhzxjtyw55lcbew7xzc2vszg9yzib8ipcfjjagfcbbqkxdiiwic2n5ijoiyxv0byisinnuasi6imrllnpob3utexvmyw4uy29tiiwidgxzijoidgxziiwidhlwzsi6im5vbmuilcj2ijoimij9",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJhZGQiOiJkZS56aG91LXl1ZmFuLmNvbSIsImFpZCI6IjAiLCJob3N0IjoiZGUuemhvdS15dWZhbi5jb20iLCJpZCI6ImYzOGU1OTFkLWQxM2EtNGMzMC05NzYzLTZiZTNhZDY1ZjNlYyIsIm5ldCI6InJhdyIsInBhdGgiOiIvIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HqfCfh6ogR2VybWFueSwgRMO8c3NlbGRvcmYgfCDwn4yQIHwgW0JMXSIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0?fp=chrome",
-    "protocol": "vmess",
-    "name": "eyjhzgqioijkzs56ag91lxl1zmfulmnvbsisimfpzci6ijailcjob3n0ijoizguuemhvds15dwzhbi5jb20ilcjpzci6imyzogu1otfklwqxm2etngmzmc05nzyzltziztnhzdy1zjnlyyisim5ldci6injhdyisinbhdggioiiviiwicg9ydci6ijq0myisinbzijoi8j+hqfcfh6ogr2vybwfueswgrmo8c3nlbgrvcmygfcdwn4yqihwgw0jmxsisinrscyi6inrscyisinr5cguioijub25liiwidii6ijiilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJ2IjoiMiIsInBzIjoiLvCWpZQg3YEgy5bWtPCfm7jgvITLlsKwLiB8IFtCTF0iLCJhZGQiOiIzOS4xMDguMTEzLjEyNyIsInBvcnQiOiIxMDA4NiIsImlkIjoiNGZjNTQzZDUtMjNjZS00NTU2LWFlMmItMDE2ODVlZGQ0Mzk3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii8iLCJ0bHMiOiIiLCJzY3kiOiJhdXRvIiwiYWxsb3dJbnNlY3VyZSI6dHJ1ZSwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=",
-    "protocol": "vmess",
-    "name": "eyj2ijoimiisinbzijoilvcwpzqg3yegy5bwtpcfm7jgvitllskwlib8iftctf0ilcjhzgqioiizos4xmdgumtezljeynyisinbvcnqioiixmda4niisimlkijoingzjntqzzdutmjnjzs00ntu2lwflmmitmde2odvlzgq0mzk3iiwiywlkijoimcisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwicgf0aci6ii8ilcj0bhmioiiilcjzy3kioijhdxrviiwiywxsb3djbnnly3vyzsi6dhj1zswic25pijoiiiwiywxwbii6iiisimzwijoiin0=",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6ogR2VybWFueSwgRMO8c3NlbGRvcmYgfCDwn4yQIHwgW0JMXSIsImFkZCI6ImRlLnpob3UteXVmYW4uY29tIiwicG9ydCI6IjQ0MyIsImlkIjoiZjM4ZTU5MWQtZDEzYS00YzMwLTk3NjMtNmJlM2FkNjVmM2VjIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInBhdGgiOiIvIiwidGxzIjoidGxzIiwiaG9zdCI6IiIsInNuaSI6IiIsImFscG4iOiIiLCJmcCI6IiJ9",
-    "protocol": "vmess",
-    "name": "eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfueswgrmo8c3nlbgrvcmygfcdwn4yqihwgw0jmxsisimfkzci6imrllnpob3utexvmyw4uy29tiiwicg9ydci6ijq0myisimlkijoizjm4ztu5mwqtzdezys00yzmwltk3njmtnmjlm2fknjvmm2vjiiwiywlkijoimcisinnjesi6imf1dg8ilcjuzxqioij0y3ailcj0exblijoibm9uzsisinbhdggioiiviiwidgxzijoidgxziiwiag9zdci6iiisinnuasi6iiisimfscg4ioiiilcjmcci6iij9",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJhZGQiOiJkZS56aG91LXl1ZmFuLmNvbSIsImFpZCI6IjAiLCJob3N0IjoiZGUuemhvdS15dWZhbi5jb20iLCJpZCI6ImYzOGU1OTFkLWQxM2EtNGMzMC05NzYzLTZiZTNhZDY1ZjNlYyIsIm5ldCI6InJhdyIsInBhdGgiOiIvIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HqfCfh6ogR2VybWFueSwgRMO8c3NlbGRvcmYgfCDwn4yQIHwgW0JMXSIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=",
-    "protocol": "vmess",
-    "name": "eyjhzgqioijkzs56ag91lxl1zmfulmnvbsisimfpzci6ijailcjob3n0ijoizguuemhvds15dwzhbi5jb20ilcjpzci6imyzogu1otfklwqxm2etngmzmc05nzyzltziztnhzdy1zjnlyyisim5ldci6injhdyisinbhdggioiiviiwicg9ydci6ijq0myisinbzijoi8j+hqfcfh6ogr2vybwfueswgrmo8c3nlbgrvcmygfcdwn4yqihwgw0jmxsisinrscyi6inrscyisinr5cguioijub25liiwidii6ijiilcjzy3kioijhdxrviiwic25pijoiiiwiywxwbii6iiisimzwijoiin0=",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJhZGQiOiJkZS56aG91LXl1ZmFuLmNvbSIsImFscG4iOiIiLCJmcCI6IiIsImlkIjoiZjM4ZTU5MWQtZDEzYS00YzMwLTk3NjMtNmJlM2FkNjVmM2VjIiwibmV0IjoicmF3IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HqfCfh6ogR2VybWFueSwgRMO8c3NlbGRvcmYgfCDwn4yQIHwgW0JMXSIsInNjeSI6ImF1dG8iLCJzbmkiOiJkZS56aG91LXl1ZmFuLmNvbSIsInRscyI6InRscyIsInR5cGUiOiJub25lIiwidiI6IjIiLCJhaWQiOiIwIiwiaG9zdCI6IiIsInBhdGgiOiIifQ==",
-    "protocol": "vmess",
-    "name": "eyjhzgqioijkzs56ag91lxl1zmfulmnvbsisimfscg4ioiiilcjmcci6iiisimlkijoizjm4ztu5mwqtzdezys00yzmwltk3njmtnmjlm2fknjvmm2vjiiwibmv0ijoicmf3iiwicg9ydci6ijq0myisinbzijoi8j+hqfcfh6ogr2vybwfueswgrmo8c3nlbgrvcmygfcdwn4yqihwgw0jmxsisinnjesi6imf1dg8ilcjzbmkioijkzs56ag91lxl1zmfulmnvbsisinrscyi6inrscyisinr5cguioijub25liiwidii6ijiilcjhawqioiiwiiwiag9zdci6iiisinbhdggioiiifq==",
+    "name": "eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfueswgtnvyzw1izxjnihwg8j+mkcb8iftctf0ilcjhzgqioijnzxruzxquc2vydmvyc3viyxnsas50b3ailcjwb3j0ijoioda4mcisimlkijoizdjinjdlndgtyzm0ms00n2jhlthjywetnty1ogrmnjkzywm0iiwiywlkijoimcisim5ldci6indziiwidhlwzsi6im5vbmuilcj0bhmioij0bhmilcjwyxroijoilyisinnuasi6imdldg5ldc5zzxj2zxjzdwjhc2xplnrvccisimzwijoiy2hyb21liiwiywxwbii6imh0dhavms4xiiwiywxsb3djbnnly3vyzsi6ijeilcjpbnnly3vyzsi6ijeilcjzy3kioijhdxrviiwiag9zdci6iij9",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
     "latency_ms": 0,
     "error": "host unreachable"
@@ -344,68 +24,20 @@
     "error": "host unreachable"
   },
   {
-    "config": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVW5pdGVkIFN0YXRlcywgTWlua2xlciB8IFtCTF0iLCJhZGQiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwb3J0IjoiNDQzIiwiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwiYWxwbiI6IiIsInBhdGgiOiIvd3Mtdm1lc3MiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJmcCI6IiJ9",
-    "protocol": "vmess",
-    "name": "eyj2ijoimiisinbzijoi8j+huvcfh7ggvw5pdgvkifn0yxrlcywgtwlua2xlcib8iftctf0ilcjhzgqioijyawi5anhhew9xamdummt3lnyum2rucy52axailcjwb3j0ijoindqziiwiawqioii5yjmxndkwzc0xotblltrlzjetywywys03y2nhyjnln2mzyjuilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwiywxwbii6iiisinbhdggioiivd3mtdm1lc3milcj0bhmioij0bhmilcjzbmkioijyawi5anhhew9xamdummt3lnyum2rucy52axailcjmcci6iij9",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJhZGQiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiOWIzMTQ5MGQtMTkwZS00ZWYxLWFmMGEtN2NjYWIzZTdjM2I1IiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzLXZtZXNzIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7ggVW5pdGVkIFN0YXRlcywgTWlua2xlciB8IFtCTF0iLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwic2N5IjoiYXV0byIsImFscG4iOiIiLCJmcCI6IiJ9",
-    "protocol": "vmess",
-    "name": "eyjhzgqioijyawi5anhhew9xamdummt3lnyum2rucy52axailcjhawqioiiwiiwiag9zdci6iiisimlkijoiowizmtq5mgqtmtkwzs00zwyxlwfmmgetn2njywizztdjm2i1iiwibmv0ijoid3milcjwyxroijoil3dzlxztzxnziiwicg9ydci6ijq0myisinbzijoi8j+huvcfh7ggvw5pdgvkifn0yxrlcywgtwlua2xlcib8iftctf0ilcjzbmkioiiilcj0bhmioij0bhmilcj0exblijoibm9uzsisinyioiiyiiwic2n5ijoiyxv0byisimfscg4ioiiilcjmcci6iij9",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJhZGQiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InJpYjlqeGF5b3FqZ24ya3cudi4zZG5zLnZpcCIsImlkIjoiOWIzMTQ5MGQtMTkwZS00ZWYxLWFmMGEtN2NjYWIzZTdjM2I1IiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzLXZtZXNzIiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7ggVW5pdGVkIFN0YXRlcywgTWlua2xlciB8IFtCTF0iLCJzY3kiOiJhdXRvIiwic2VjdXJpdHkiOiJhdXRvIiwic25pIjoicmliOWp4YXlvcWpnbjJrdy52LjNkbnMudmlwIiwidGxzIjoidGxzIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9",
-    "protocol": "vmess",
-    "name": "eyjhzgqioijyawi5anhhew9xamdummt3lnyum2rucy52axailcjhawqioiiwiiwiywxwbii6iiisimzwijoiiiwiag9zdci6injpyjlqegf5b3fqz24ya3cudi4zzg5zlnzpccisimlkijoiowizmtq5mgqtmtkwzs00zwyxlwfmmgetn2njywizztdjm2i1iiwibmv0ijoid3milcjwyxroijoil3dzlxztzxnziiwicg9ydci6ijq0myisinbzijoi8j+huvcfh7ggvw5pdgvkifn0yxrlcywgtwlua2xlcib8iftctf0ilcjzy3kioijhdxrviiwic2vjdxjpdhkioijhdxrviiwic25pijoicmliowp4yxlvcwpnbjjrdy52ljnkbnmudmlwiiwidgxzijoidgxziiwidhlwzsi6im5vbmuilcj2ijoimij9",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVW5pdGVkIFN0YXRlcywgU2FudGEgQ2xhcmEgfCBbQkxdIiwiYWRkIjoiNDMuMTczLjY3LjQyIiwicG9ydCI6IjQ3MTE2IiwiaWQiOiJmYzMzNDdlMi0wMDdkLTRjYWQtZmUyOC0zZDgwNjcyYzNjY2MiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIiLCJhbHBuIjoiIiwiZnAiOiIiLCJpbnNlY3VyZSI6IjAifQ==",
-    "protocol": "vmess",
-    "name": "eyj2ijoimiisinbzijoi8j+huvcfh7ggvw5pdgvkifn0yxrlcywgu2fudgegq2xhcmegfcbbqkxdiiwiywrkijoindmumtczljy3ljqyiiwicg9ydci6ijq3mte2iiwiawqioijmyzmznddlmi0wmddkltrjywqtzmuyoc0zzdgwnjcyyznjy2milcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6inrjccisinr5cguioijub25liiwiag9zdci6iiisinbhdggioiiilcj0bhmioiiilcjzbmkioiiilcjhbhbuijoiiiwiznaioiiilcjpbnnly3vyzsi6ijaifq==",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "hysteria2://gf1:gfhysteria2024@5.129.235.85:443?insecure=1&sni=speedtest.tinkoff.ru#🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
+    "config": "hysteria2://8dOHZ13sx33R1/PQbhTK/w==@34.24.25.1:443?sni=bing.com&insecure=1#🇺🇸 United States, North Charleston | [BL]",
     "protocol": "hysteria2",
-    "name": "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "unsupported protocol"
-  },
-  {
-    "config": "hysteria2://948b48e5-a202-4770-8552-f35a12dac378@172.245.6.155:18687?sni=www.bing.com&alpn=h3&insecure=1#🇺🇸 United States, Ashburn | [BL]",
-    "protocol": "hysteria2",
-    "name": "🇺🇸 United States, Ashburn | [BL]",
+    "name": "🇺🇸 United States, North Charleston | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
     "latency_ms": 0,
     "error": "host unreachable"
   },
   {
-    "config": "hysteria2://gf1:gfhysteria2024@5.129.235.85:443?insecure=1&sni=t.me#🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
+    "config": "hysteria2://T9mkgeXbx77OrcXCOlaHAwcS@23.95.115.116:8443/?insecure=1&sni=www.bing.com#🇺🇸 United States, Buffalo | [BL]",
     "protocol": "hysteria2",
-    "name": "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
+    "name": "🇺🇸 United States, Buffalo | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
     "latency_ms": 0,
-    "error": "unsupported protocol"
-  },
-  {
-    "config": "hysteria2://gf1:gfhysteria2024@5.129.235.85:443?insecure=1&sni=www.linux.com#🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "protocol": "hysteria2",
-    "name": "🇳🇱 The Netherlands, Amsterdam | 🌐 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
-    "latency_ms": 0,
-    "error": "unsupported protocol"
+    "error": "host unreachable"
   },
   {
     "config": "hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-hk-004.fastervpn.world:443?insecure=1&sni=vpn-hk-004.fastervpn.world#🇭🇰 Hong Kong, Fo Tan | [BL]",
@@ -416,15 +48,15 @@
     "error": "host unreachable"
   },
   {
-    "config": "vless://c720cb74-4c84-4fce-b8ae-637dbaa16199@91.185.83.44:443?encryption=none&fp=firefox&host=nguyxejonb.rucdncomp.pro&path=/service/telemetry/0294da469190/&security=tls&sni=nguyxejonb.rucdncomp.pro&type=ws#🇳🇱 The Netherlands — #36",
+    "config": "vless://26ca282d-511d-4f32-8e9b-1a61a1a5169a@95.129.236.149:443?alpn=http/1.1&encryption=none&fp=firefox&path=/gateway/v1/ws/74c4d5e82a8e50ccf09fc628c17dc9be&security=tls&sni=d.nehtar.ru&type=ws#🇩🇪 Germany — #7",
     "protocol": "vless",
-    "name": "36",
+    "name": "7",
     "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7038,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+    "latency_ms": 3552,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
   {
-    "config": "hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@31.76.62.148:4444?sni=lv2.nexfile.net&alpn=h3#🇱🇻 Latvia, Riga | [BL]",
+    "config": "hysteria2://a35c508f-4d5d-4531-842e-6e9d43c762c0@31.76.62.148:4444?sni=lv2.nexfile.net#🇱🇻 Latvia, Riga | [BL]",
     "protocol": "hysteria2",
     "name": "🇱🇻 Latvia, Riga | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
@@ -432,284 +64,236 @@
     "error": "host unreachable"
   },
   {
-    "config": "vless://aa09ada3-ad33-0004-9c1a-6af275272567@46.182.24.15:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=V-wRiXvhBx01utmXJbrThJ_DE4tNJfK6mnzo9EB3fVA&security=reality&sni=yabro-wbplugin.edadeal.yandex.ru&type=raw#🇳🇱 The Netherlands — #37",
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@100497t.de18.h1clayd.click:443?encryption=none&type=tcp&security=reality&sni=100497t.de18.h1clayd.click&pbk=x-7K9P2E91DCL-0ONwm14gxDkUseukg98hYzB-1dW1A&sid=5be240e45d3c445c&spx=/&fp=android#🇩🇪 Germany, Frankfurt am Main | [BL]",
     "protocol": "vless",
-    "name": "37",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7037,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://03929684-0dcf-4add-bb02-2b2ba09d10a2@31.177.111.236:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Kamryj_IUYECmozGabqUqauA0k0QpVUEPSBSEKi-ED0&security=reality&sni=tfhx4tjzmy39benjh0hg.sellerape.cc&type=raw#🇵🇱 Poland — #87",
-    "protocol": "vless",
-    "name": "87",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 5610,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://00d09ead-4080-4c39-a75d-be7dcabe77f4@217.19.122.170:2096?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=26eRxOLahaWymVv1f33Za0Cw56VDNJ8BN2bEKznW-m4&security=reality&sid=2a096f7b298d0aba&sni=bm8.hat.onl&type=raw#🇵🇱 Poland — #86",
-    "protocol": "vless",
-    "name": "86",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 6520,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@212.119.43.76:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=edge#🇸🇬 Singapore, Singapore (Somapah) | [BL]",
-    "protocol": "vless",
-    "name": "🇸🇬 Singapore, Singapore (Somapah) | [BL]",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
     "latency_ms": 0,
     "error": "host unreachable"
   },
   {
-    "config": "vless://00d09ead-4080-4c39-a75d-be7dcabe77f4@217.19.122.170:2096?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=26eRxOLahaWymVv1f33Za0Cw56VDNJ8BN2bEKznW-m4&security=reality&sid=2a096f7b298d0aba&sni=bm8.hat.onl&type=raw#🇵🇱 Poland — #88",
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@100497t.de18.h1clayd.click:443?encryption=none&type=tcp&security=reality&sni=100497t.de18.h1clayd.click&pbk=x-7K9P2E91DCL-0ONwm14gxDkUseukg98hYzB-1dW1A&sid=5be240e45d3c445c&spx=/&fp=firefox#🇩🇪 Germany, Frankfurt am Main | [BL]",
     "protocol": "vless",
-    "name": "88",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 6523,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://00d09ead-4080-4c39-a75d-be7dcabe77f4@217.19.122.170:2087?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=WL9GPq_lRWgT2lNCnDGSSU9GB9LghVKZ7nUrHAS5Pw8&security=reality&sid=6f009fe1fab1d42e&sni=bm7.hat.onl&type=raw#🇵🇱 Poland — #90",
-    "protocol": "vless",
-    "name": "90",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 6599,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://00d09ead-4080-4c39-a75d-be7dcabe77f4@217.19.122.170:2096?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=26eRxOLahaWymVv1f33Za0Cw56VDNJ8BN2bEKznW-m4&security=reality&sid=2a096f7b298d0aba&sni=bm8.hat.onl&type=raw#🇵🇱 Poland — #83",
-    "protocol": "vless",
-    "name": "83",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 6573,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@212.119.43.76:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=firefox#🇸🇬 Singapore, Singapore (Somapah) | [BL]",
-    "protocol": "vless",
-    "name": "🇸🇬 Singapore, Singapore (Somapah) | [BL]",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
     "latency_ms": 0,
     "error": "host unreachable"
   },
   {
-    "config": "vless://db80088c-32a1-4cb8-a907-0f3cb7844152@188.72.112.1:443?encryption=none&extra={\"host\":\"\",\"path\":\"/api/uploadFile/\",\"mode\":\"packet-up\",\"headers\":null,\"xPaddingBytes\":\"0\",\"xPaddingObfsMode\":false,\"xPaddingKey\":\"\",\"xPaddingHeader\":\"\",\"xPaddingPlacement\":\"\",\"xPaddingMethod\":\"\",\"uplinkHTTPMethod\":\"GET\",\"sessionIDPlacement\":\"\",\"sessionIDKey\":\"\",\"sessionIDTable\":\"\",\"sessionIDLength\":\"0\",\"seqPlacement\":\"\",\"seqKey\":\"\",\"uplinkDataPlacement\":\"header\",\"uplinkDataKey\":\"X-Request-Trace\",\"uplinkChunkSize\":\"0\",\"noGRPCHeader\":false,\"noSSEHeader\":false,\"scMaxEachPostBytes\":\"24000\",\"scMinPostsIntervalMs\":\"10\",\"scMaxBufferedPosts\":0,\"scStreamUpServerSecs\":\"0\",\"serverMaxHeaderBytes\":65536,\"xmux\":{\"maxConcurrency\":\"16-32\",\"maxConnections\":\"0\",\"cMaxReuseTimes\":\"100\",\"hMaxRequestTimes\":\"0\",\"hMaxReusableSecs\":\"0\",\"hKeepAlivePeriod\":0},\"downloadSettings\":null,\"extra\":null}&fp=qq&host=cdn5.japancase.site&mode=packet-up&path=/api/uploadFile/&security=tls&sni=cdn5.japancase.site&type=xhttp#🇵🇱 Poland — #92",
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@aaf9a7x.de18.h1clayd.click:443?encryption=none&type=xhttp&security=reality&sni=aaf9a7x.de18.h1clayd.click&pbk=JxuqY729RxyPX7D1cZigwHUYbkSPIx2H7vNTcrj4VBs&sid=19a70eda3a2416cb&spx=/&path=/9e6c99f913ef&host=aaf9a7x.de18.h1clayd.click&mode=auto&fp=qq#🇩🇪 Germany, Frankfurt am Main | [BL]",
     "protocol": "vless",
-    "name": "92",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7042,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://00d09ead-4080-4c39-a75d-be7dcabe77f4@217.19.122.170:8443?encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=Dx5aV0n9e1j_YDhVk8Z4O9HPrg1HLAuGKlmQpgERgDo&security=reality&sid=8eeca41a32d1523d&sni=bm9.hat.onl&type=raw#🇵🇱 Poland — #89",
-    "protocol": "vless",
-    "name": "89",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7042,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&spx=/&type=raw#🇸🇪 Sweden — #94",
-    "protocol": "vless",
-    "name": "94",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7043,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&spx=/&type=raw#🇸🇪 Sweden — #95",
-    "protocol": "vless",
-    "name": "95",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7050,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&spx=/&type=raw#🇸🇪 Sweden — #96",
-    "protocol": "vless",
-    "name": "96",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7036,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.143:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&security=reality&sid=351224a7&sni=join.betust.net&spx=/&type=raw#🇸🇪 Sweden — #98",
-    "protocol": "vless",
-    "name": "98",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7035,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&spx=/&type=raw#🇸🇪 Sweden — #97",
-    "protocol": "vless",
-    "name": "97",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7034,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.143:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&security=reality&sid=351224a7&sni=join.betust.net&spx=/&type=raw#🇸🇪 Sweden — #99",
-    "protocol": "vless",
-    "name": "99",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7037,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://c86fb9d6-8bdb-48ea-b78f-4409e02234ce@85.31.148.74:443?type=raw&security=reality&flow=xtls-rprx-vision&pbk=IyUvo6owCe4Zfr8aIVdtweSNHQSpSyiO-OKsRDJ9BBs&sid=a111111111111111&sni=calendar.salphetka.ru&fp=firefox#🇫🇷 France, Bidart | [BL]",
-    "protocol": "vless",
-    "name": "🇫🇷 France, Bidart | [BL]",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
-    "latency_ms": 5183,
+    "latency_ms": 0,
+    "error": "host unreachable"
+  },
+  {
+    "config": "vless://26ca282d-511d-4f32-8e9b-1a61a1a5169a@185.86.145.112:10452?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=L1Ug_ELbeZ_5q9QRzO5Lg_ZMkus9n72aiUfvFirN9Vo&security=reality&sid=c8a79c7b64adca2a&sni=passport.yandex.ru&spx=/&type=raw#🇩🇪 Germany — #5",
+    "protocol": "vless",
+    "name": "5",
+    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
+    "latency_ms": 6615,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.143:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&security=reality&sid=351224a7&sni=join.betust.net&type=raw#🇸🇪 Sweden — #102",
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@aaf9a7x.de18.h1clayd.click:443?encryption=none&type=xhttp&security=reality&sni=aaf9a7x.de18.h1clayd.click&pbk=JxuqY729RxyPX7D1cZigwHUYbkSPIx2H7vNTcrj4VBs&sid=19a70eda3a2416cb&spx=/&path=/9e6c99f913ef&host=aaf9a7x.de18.h1clayd.click&mode=auto&fp=ios#🇩🇪 Germany, Frankfurt am Main | [BL]",
     "protocol": "vless",
-    "name": "102",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 4718,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@aaf9a7x.de18.h1clayd.click:443?encryption=none&type=xhttp&security=reality&sni=aaf9a7x.de18.h1clayd.click&pbk=JxuqY729RxyPX7D1cZigwHUYbkSPIx2H7vNTcrj4VBs&sid=19a70eda3a2416cb&spx=/&path=/9e6c99f913ef&host=aaf9a7x.de18.h1clayd.click&mode=auto&fp=firefox#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 4721,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "config": "vless://c720cb74-4c84-4fce-b8ae-637dbaa16199@46.243.235.98:443?alpn=http/1.1&encryption=none&fp=random&host=z1q3pv4g78.rucdncomp.pro&path=/useraction/events/b892639b7195/&security=tls&sni=z1q3pv4g78.rucdncomp.pro&type=ws#🇩🇪 Germany — #1",
+    "protocol": "vless",
+    "name": "1",
     "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7040,
+    "latency_ms": 7270,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&type=raw#🇸🇪 Sweden — #103",
+    "config": "vless://26ca282d-511d-4f32-8e9b-1a61a1a5169a@185.86.147.143:7443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=0w339GBhpDiYwa9Wgqu3z3epu8dHAzeYUFXPtvzK8To&security=reality&sid=190c27ae5f2e4d2c&sni=passport.yandex.ru&spx=/&type=raw#🇩🇪 Germany — #4",
     "protocol": "vless",
-    "name": "103",
+    "name": "4",
+    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
+    "latency_ms": 7291,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://7955bf18-35c4-412d-aabd-c0b36c793063@91.185.83.44:443?encryption=none&fp=firefox&host=nguyxejonb.rucdncomp.pro&path=/service/telemetry/0294da469190/&security=tls&sni=nguyxejonb.rucdncomp.pro&type=ws#🇳🇱 The Netherlands — #8",
+    "protocol": "vless",
+    "name": "8",
+    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
+    "latency_ms": 7296,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://26ca282d-511d-4f32-8e9b-1a61a1a5169a@185.86.147.184:9449?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=SsPslLCfw2CGDmCs17gTLRSUOsOfv0KgnuLnkyTqCzA&security=reality&sid=62002c0a685ac208&sni=passport.yandex.ru&spx=/&type=raw#🇩🇪 Germany — #3",
+    "protocol": "vless",
+    "name": "3",
+    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
+    "latency_ms": 7312,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://c720cb74-4c84-4fce-b8ae-637dbaa16199@91.185.83.44:443?encryption=none&fp=firefox&host=nguyxejonb.rucdncomp.pro&path=/service/telemetry/0294da469190/&security=tls&sni=nguyxejonb.rucdncomp.pro&type=ws#🇳🇱 The Netherlands — #10",
+    "protocol": "vless",
+    "name": "10",
+    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
+    "latency_ms": 7330,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://26ca282d-511d-4f32-8e9b-1a61a1a5169a@91.185.83.105:9443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Te3ZcFFTilb6_j4hdotSvXaRYBzGuNiRxuBh8n1NezU&security=reality&sid=91d2d3db690f4b59&sni=passport.yandex.ru&type=raw#🇩🇪 Germany — #6",
+    "protocol": "vless",
+    "name": "6",
+    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
+    "latency_ms": 7366,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://c720cb74-4c84-4fce-b8ae-637dbaa16199@91.185.83.44:443?alpn=http/1.1&encryption=none&fp=firefox&host=nguyxejonb.rucdncomp.pro&path=/service/telemetry/0294da469190/&security=tls&sni=nguyxejonb.rucdncomp.pro&type=ws#🇳🇱 The Netherlands — #9",
+    "protocol": "vless",
+    "name": "9",
+    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
+    "latency_ms": 7365,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://c720cb74-4c84-4fce-b8ae-637dbaa16199@46.243.235.98:443?alpn=http/1.1&encryption=none&path=/useraction/events/b892639b7195/&security=tls&sni=z1q3pv4g78.rucdncomp.pro&type=ws#🇩🇪 Germany — #2",
+    "protocol": "vless",
+    "name": "2",
+    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
+    "latency_ms": 7408,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@ac3f32g.de18.h1clayd.click:443?encryption=none&type=grpc&security=reality&sni=ac3f32g.de18.h1clayd.click&pbk=cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q&sid=051e90ed3d657158&spx=/&serviceName=01ad85319ae3&fp=android#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 6532,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@ac3f32g.de18.h1clayd.click:443?encryption=none&type=grpc&security=reality&sni=ac3f32g.de18.h1clayd.click&pbk=cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q&sid=051e90ed3d657158&spx=/&serviceName=01ad85319ae3&fp=firefox#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 6444,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@ac3f32g.de18.h1clayd.click:443?encryption=none&type=grpc&security=reality&sni=ac3f32g.de18.h1clayd.click&pbk=cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q&sid=051e90ed3d657158&spx=/&serviceName=01ad85319ae3&fp=chrome#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 6486,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&type=raw#🇸🇪 Sweden — #59",
+    "protocol": "vless",
+    "name": "59",
     "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
     "latency_ms": 7038,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.143:443?encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&security=reality&sid=351224a7&sni=join.betust.net&type=raw#🇸🇪 Sweden — #105",
+    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&type=raw#🇸🇪 Sweden — #60",
     "protocol": "vless",
-    "name": "105",
+    "name": "60",
     "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
     "latency_ms": 7035,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&type=raw#🇸🇪 Sweden — #104",
+    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&type=raw#🇸🇪 Sweden — #61",
     "protocol": "vless",
-    "name": "104",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7035,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.143:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&security=reality&sid=351224a7&sni=join.betust.net&type=raw#🇸🇪 Sweden — #107",
-    "protocol": "vless",
-    "name": "107",
+    "name": "61",
     "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
     "latency_ms": 7040,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=safari&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&type=raw#🇸🇪 Sweden — #108",
+    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.143:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&security=reality&sid=351224a7&sni=join.betust.net&type=raw#🇸🇪 Sweden — #62",
     "protocol": "vless",
-    "name": "108",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7035,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.143:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&security=reality&sid=351224a7&sni=join.betust.net&spx=/&type=raw#🇸🇪 Sweden — #93",
-    "protocol": "vless",
-    "name": "93",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 6663,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://c86fb9d6-8bdb-48ea-b78f-4409e02234ce@85.31.148.74:443?type=raw&security=reality&flow=xtls-rprx-vision&pbk=IyUvo6owCe4Zfr8aIVdtweSNHQSpSyiO-OKsRDJ9BBs&sid=a111111111111111&sni=calendar.salphetka.ru&fp=qq#🇫🇷 France, Bidart | [BL]",
-    "protocol": "vless",
-    "name": "🇫🇷 France, Bidart | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
-    "latency_ms": 5196,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.143:443?encryption=none&flow=xtls-rprx-vision&fp=ios&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&security=reality&sid=351224a7&sni=join.betust.net&spx=/&type=raw#🇸🇪 Sweden — #100",
-    "protocol": "vless",
-    "name": "100",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7036,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.194:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=T98nmnCp0qrmkH1Oq92Tk94sCYa5RuuEjp8bDDbdVxk&security=reality&sid=b20168a5&sni=apply.betust.net&type=raw#🇸🇪 Sweden — #101",
-    "protocol": "vless",
-    "name": "101",
+    "name": "62",
     "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
     "latency_ms": 7034,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://fb37d713-0ed3-4146-b085-a5c879a9aafa@81.163.22.143:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=GQul8Ak0VO_z4FW_m_R-xsQbwd2e1rWZO-XfMmKmpQE&security=reality&sid=351224a7&sni=join.betust.net&type=raw#🇸🇪 Sweden — #106",
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@100497t.de18.h1clayd.click:443?encryption=none&type=tcp&security=reality&sni=100497t.de18.h1clayd.click&pbk=x-7K9P2E91DCL-0ONwm14gxDkUseukg98hYzB-1dW1A&sid=5be240e45d3c445c&spx=/&fp=ios#🇩🇪 Germany, Frankfurt am Main | [BL]",
     "protocol": "vless",
-    "name": "106",
-    "source": "https://raw.githubusercontent.com/zieng2/wl/main/vless_universal.txt",
-    "latency_ms": 7046,
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 7034,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://727a9178-d7f0-4142-8205-b0d19959ded0@130.49.177.193:443?security=reality&flow=xtls-rprx-vision&pbk=DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc&sid=681fc2dd643bc2f3&sni=de-2.ffpn.pro&type=tcp&headerType=none&host=de-2.ffpn.pro&path=/&fp=ios#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "config": "vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=chrome#🇸🇬 Singapore, Singapore (Somapah) | 🌐 | [BL]",
+    "protocol": "vless",
+    "name": "🇸🇬 Singapore, Singapore (Somapah) | 🌐 | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 7039,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.20:8443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=qq#🇸🇬 Singapore, Singapore (Somapah) | 🌐 | [BL]",
+    "protocol": "vless",
+    "name": "🇸🇬 Singapore, Singapore (Somapah) | 🌐 | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 7037,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@100497t.de18.h1clayd.click:443?encryption=none&type=tcp&security=reality&sni=100497t.de18.h1clayd.click&pbk=x-7K9P2E91DCL-0ONwm14gxDkUseukg98hYzB-1dW1A&sid=5be240e45d3c445c&spx=/&fp=chrome#🇩🇪 Germany, Frankfurt am Main | [BL]",
     "protocol": "vless",
     "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
-    "latency_ms": 5409,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 0,
+    "error": "host unreachable"
   },
   {
-    "config": "vless://727a9178-d7f0-4142-8205-b0d19959ded0@130.49.177.193:443?security=reality&flow=xtls-rprx-vision&pbk=DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc&sid=681fc2dd643bc2f3&sni=de-2.ffpn.pro&type=tcp&headerType=none&host=de-2.ffpn.pro&path=/&fp=qq#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@100497t.de18.h1clayd.click:443?encryption=none&type=tcp&security=reality&sni=100497t.de18.h1clayd.click&pbk=x-7K9P2E91DCL-0ONwm14gxDkUseukg98hYzB-1dW1A&sid=5be240e45d3c445c&spx=/&fp=safari#🇩🇪 Germany, Frankfurt am Main | [BL]",
     "protocol": "vless",
     "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 0,
+    "error": "host unreachable"
+  },
+  {
+    "config": "vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=chrome#🇸🇬 Singapore, Singapore (Somapah) | 🌐 | [BL]",
+    "protocol": "vless",
+    "name": "🇸🇬 Singapore, Singapore (Somapah) | 🌐 | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
-    "latency_ms": 5406,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "latency_ms": 7038,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://727a9178-d7f0-4142-8205-b0d19959ded0@130.49.177.193:443?security=reality&flow=xtls-rprx-vision&pbk=DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc&sid=681fc2dd643bc2f3&sni=de-2.ffpn.pro&type=tcp&headerType=none&host=de-2.ffpn.pro&path=/&fp=safari#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "config": "vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=ios#🇸🇬 Singapore, Singapore (Somapah) | 🌐 | [BL]",
     "protocol": "vless",
-    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "name": "🇸🇬 Singapore, Singapore (Somapah) | 🌐 | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
-    "latency_ms": 5400,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "latency_ms": 7043,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@212.119.43.76:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=chrome#🇸🇬 Singapore, Singapore (Somapah) | [BL]",
+    "config": "vless://29c3dd6b-b164-40ca-a0d5-f06aca52a8b2@141.193.213.21:8443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=safari#🇸🇬 Singapore, Singapore (Somapah) | 🌐 | [BL]",
     "protocol": "vless",
-    "name": "🇸🇬 Singapore, Singapore (Somapah) | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@212.119.43.76:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=qq#🇸🇬 Singapore, Singapore (Somapah) | [BL]",
-    "protocol": "vless",
-    "name": "🇸🇬 Singapore, Singapore (Somapah) | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@212.119.43.76:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=safari#🇸🇬 Singapore, Singapore (Somapah) | [BL]",
-    "protocol": "vless",
-    "name": "🇸🇬 Singapore, Singapore (Somapah) | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6ogR2VybWFueSwgRMO8c3NlbGRvcmYgfCDwn4yQIHwgW0JMXSIsImFkZCI6ImRlLnpob3UteXVmYW4uY29tIiwicG9ydCI6IjQ0MyIsImlkIjoiZjM4ZTU5MWQtZDEzYS00YzMwLTk3NjMtNmJlM2FkNjVmM2VjIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoibm9uZSIsInRscyI6InRscyIsInNuaSI6ImRlLnpob3UteXVmYW4uY29tIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJhbHBuIjoiIiwiZnAiOiIifQ==",
-    "protocol": "vmess",
-    "name": "eyj2ijoimiisinbzijoi8j+hqfcfh6ogr2vybwfueswgrmo8c3nlbgrvcmygfcdwn4yqihwgw0jmxsisimfkzci6imrllnpob3utexvmyw4uy29tiiwicg9ydci6ijq0myisimlkijoizjm4ztu5mwqtzdezys00yzmwltk3njmtnmjlm2fknjvmm2vjiiwiywlkijoimcisinnjesi6imf1dg8ilcjuzxqioij0y3ailcj0exblijoibm9uzsisinrscyi6inrscyisinnuasi6imrllnpob3utexvmyw4uy29tiiwiag9zdci6iiisinbhdggioiiilcjhbhbuijoiiiwiznaioiiifq==",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
+    "name": "🇸🇬 Singapore, Singapore (Somapah) | 🌐 | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 7041,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
     "config": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HqfCfh6ogR2VybWFueSwgTnVyZW1iZXJnIHwg8J+MkCB8IFtCTF0iLCJhZGQiOiJnZXRuZXQuc2VydmVyc3ViYXNsaS50b3AiLCJwb3J0IjoiODA4MCIsImlkIjoiZDJiNjdlNDgtYzM0MS00N2JhLThjYWEtNTY1OGRmNjkzYWM0IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii8iLCJ0bHMiOiJ0bHMiLCJmcCI6ImNocm9tZSIsImFscG4iOiJodHRwLzEuMSIsInNjeSI6ImF1dG8iLCJzbmkiOiIifQ==",
@@ -720,20 +304,20 @@
     "error": "host unreachable"
   },
   {
-    "config": "vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVW5pdGVkIFN0YXRlcywgTWlua2xlciB8IFtCTF0iLCJhZGQiOiJyaWI5anhheW9xamduMmt3LnYuM2Rucy52aXAiLCJwb3J0IjoiNDQzIiwiaWQiOiI5YjMxNDkwZC0xOTBlLTRlZjEtYWYwYS03Y2NhYjNlN2MzYjUiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwiYWxwbiI6IiIsInBhdGgiOiIvd3Mtdm1lc3MiLCJ0bHMiOiJ0bHMiLCJzbmkiOiIiLCJmcCI6IiIsIm5hbWUiOiJVUyDwn4e68J+HuCB8IEBSYXlkaWthbHggfCA1Mjg4RDAifQ==",
-    "protocol": "vmess",
-    "name": "eyj2ijoimiisinbzijoi8j+huvcfh7ggvw5pdgvkifn0yxrlcywgtwlua2xlcib8iftctf0ilcjhzgqioijyawi5anhhew9xamdummt3lnyum2rucy52axailcjwb3j0ijoindqziiwiawqioii5yjmxndkwzc0xotblltrlzjetywywys03y2nhyjnln2mzyjuilcjhawqioiiwiiwic2n5ijoiyxv0byisim5ldci6indziiwidhlwzsi6im5vbmuilcjob3n0ijoiiiwiywxwbii6iiisinbhdggioiivd3mtdm1lc3milcj0bhmioij0bhmilcjzbmkioiiilcjmcci6iiisim5hbwuioijvuydwn4e68j+hucb8iebsyxlkawthbhggfca1mjg4rdaifq==",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
     "config": "vless://Parsashonam-Bot-39@104.17.147.22:8080?encryption=none&security=none&type=ws&host=Fi.Parsashonam.CfD.&path=/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056#🇫🇮 Helsinki Finland",
     "protocol": "vless",
     "name": "🇫🇮 Helsinki Finland",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 68,
+    "latency_ms": 55,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "config": "vless://1dc60f16-1593-485e-949d-8459edba6430@92.53.107.193:27129?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=pqVSxW8Vukd7XiPZUQTd9ADNT2XBrCGJ4q2-7n6kQXQ&sid=d70393f0ad1c7552&type=tcp&headerType=none#🇷🇺 Saint-Petersburg",
+    "protocol": "vless",
+    "name": "🇷🇺 Saint-Petersburg",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 0,
+    "error": "host unreachable"
   },
   {
     "config": "vless://74053bef-bd35-4654-b45b-a79f75a60637@rontgen.fasssst.ru:5343?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rontgen.fasssst.ru&fp=chrome&pbk=fmBHlPC9Fmxx3aMQnV-Hw9wAZpe7WJROiGa11lLXRjc&sid=fdffd4ac22a252&spx=/&type=tcp&headerType=none#🇦🇲 🔃 Yerevan Armenia",
@@ -752,84 +336,12 @@
     "error": "host unreachable"
   },
   {
-    "config": "vless://90dd3391-6963-4fba-a1e1-5acb8a2ff0ba@lva.tunnelguard.ru:443?encryption=none&security=tls&sni=lva.tunnelguard.ru&alpn=h2,http/1.1&fp=chrome&type=xhttp&path=/#🇱🇻 Латвия 2 | xHTTP",
-    "protocol": "vless",
-    "name": "🇱🇻 Латвия 2 | xHTTP",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vless://26052074-f2a5-4335-b602-fe34633c71b1@lva.tunnelguard.ru:443?encryption=none&security=tls&sni=lva.tunnelguard.ru&alpn=h2,http/1.1&fp=chrome&type=xhttp&path=/#🇱🇻 Латвия 1 | xHTTP",
-    "protocol": "vless",
-    "name": "🇱🇻 Латвия 1 | xHTTP",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vless://_911331@s3.nobaddays.site:49943?encryption=none&security=reality&sni=www.ietf.org&fp=random&pbk=_7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw&sid=ffffffffff&spx=/hcK2uS86EyNRMhz&type=tcp&headerType=none#🇷🇺 Moscow | snORG.frNotRU.orRU",
-    "protocol": "vless",
-    "name": "🇷🇺 Moscow | snORG.frNotRU.orRU",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vless://Warpi-Free-Vpn-In-GooglePlay@www.speedtest.net:80?encryption=none&security=none&type=xhttp&host=vp9.mydatacloud2.ir&path=/@WarpiFree---@WarpiFree---@WarpiFree---@WarpiFree&mode=auto#🇩🇪 Falkenstein Germany",
-    "protocol": "vless",
-    "name": "🇩🇪 Falkenstein Germany",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 593,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  },
-  {
     "config": "vless://TELEGRAM-CONFiGLiNE-78@151.101.0.0:80?encryption=none&security=none&type=xhttp&host=azaiji3.global.ssl.fastly.net&path=/telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=2048&mode=auto#🇩🇪 Nurnberg Germany",
     "protocol": "vless",
     "name": "🇩🇪 Nurnberg Germany",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 80,
+    "latency_ms": 37,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  },
-  {
-    "config": "vless://c86fb9d6-8bdb-48ea-b78f-4409e02234ce@85.31.148.74:443?type=raw&security=reality&flow=xtls-rprx-vision&pbk=IyUvo6owCe4Zfr8aIVdtweSNHQSpSyiO-OKsRDJ9BBs&sid=a111111111111111&sni=calendar.salphetka.ru&fp=ios#🇫🇷 France, Bidart | [BL]",
-    "protocol": "vless",
-    "name": "🇫🇷 France, Bidart | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 5192,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://c86fb9d6-8bdb-48ea-b78f-4409e02234ce@85.31.148.74:443?type=raw&security=reality&flow=xtls-rprx-vision&pbk=IyUvo6owCe4Zfr8aIVdtweSNHQSpSyiO-OKsRDJ9BBs&sid=a111111111111111&sni=calendar.salphetka.ru&fp=chrome#🇫🇷 France, Bidart | [BL]",
-    "protocol": "vless",
-    "name": "🇫🇷 France, Bidart | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 5193,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://c86fb9d6-8bdb-48ea-b78f-4409e02234ce@85.31.148.74:443?type=raw&security=reality&flow=xtls-rprx-vision&pbk=IyUvo6owCe4Zfr8aIVdtweSNHQSpSyiO-OKsRDJ9BBs&sid=a111111111111111&sni=calendar.salphetka.ru&fp=android#🇫🇷 France, Bidart | [BL]",
-    "protocol": "vless",
-    "name": "🇫🇷 France, Bidart | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 5203,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://f12bdba5-7ff5-4398-b859-08cdd7347fb3@rontgen.fasssst.ru:6443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rontgen.fasssst.ru&fp=chrome&pbk=DsiKWpNmI1TkNyvhHmQzRwkvJ0aaZeShzYCZa559Hn0&sid=b757398b&spx=/&type=tcp&headerType=none#🇮🇱 🔃 Израиль Петах-Тиква Israel",
-    "protocol": "vless",
-    "name": "🇮🇱 🔃 Израиль Петах-Тиква Israel",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
-    "config": "vless://d7e2c1ec-b2ba-4a4c-a73a-c08f5bd7923b@rontgen.fasssst.ru:2243?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rontgen.fasssst.ru&fp=chrome&pbk=_ee-ouMazAzx7Q4_cYhWbu6pw53-8VVpt7tuBuCXziU&sid=e3cbc70477&spx=/&type=tcp&headerType=none#🇩🇰 🔃 Copenhagen Denmark",
-    "protocol": "vless",
-    "name": "🇩🇰 🔃 Copenhagen Denmark",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
   },
   {
     "config": "vless://4220f451-1693-4432-a7f0-58c2aa165995@rontgen.fasssst.ru:7443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rontgen.fasssst.ru&fp=chrome&pbk=aIY78eatULBUOdhH73u8t4SzMIwWTk9Fhl8kHTeDYCU&sid=13dc9463841d92&spx=/&type=tcp&headerType=none#🇹🇷 🔃 Stambul Turkey",
@@ -848,28 +360,52 @@
     "error": "host unreachable"
   },
   {
-    "config": "vless://Warpi-Free-Vpn-In-GooglePlay@www.speedtest.net:80?encryption=none&security=none&type=xhttp&host=vp10.mydatacloud2.ir&path=/@WarpiFree---@WarpiFree---@WarpiFree---@WarpiFree&mode=auto#🇩🇪 Falkenstein Germany",
+    "config": "vless://_911331@s3.nobaddays.site:49943?encryption=none&security=reality&sni=www.ietf.org&fp=random&pbk=_7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw&sid=ffffffffff&spx=/hcK2uS86EyNRMhz&type=tcp&headerType=none#🇷🇺 Moscow | snORG.frNotRU.orRU",
     "protocol": "vless",
-    "name": "🇩🇪 Falkenstein Germany",
+    "name": "🇷🇺 Moscow | snORG.frNotRU.orRU",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 559,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  },
-  {
-    "config": "vless://c86fb9d6-8bdb-48ea-b78f-4409e02234ce@85.31.148.74:443?type=raw&security=reality&flow=xtls-rprx-vision&pbk=IyUvo6owCe4Zfr8aIVdtweSNHQSpSyiO-OKsRDJ9BBs&sid=a111111111111111&sni=calendar.salphetka.ru&fp=safari#🇫🇷 France, Bidart | [BL]",
-    "protocol": "vless",
-    "name": "🇫🇷 France, Bidart | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 5214,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "latency_ms": 0,
+    "error": "host unreachable"
   },
   {
     "config": "vless://440091fe-8adb-44f6-9646-efe52051aff5@104.17.148.22:80?encryption=none&security=none&type=xhttp&host=vp6.mydatacloud1.ir&path=/@WarpiFree---@WarpiFree---@WarpiFree---@WarpiFree&mode=auto#🇩🇪 Falkenstein Germany",
     "protocol": "vless",
     "name": "🇩🇪 Falkenstein Germany",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 67,
+    "latency_ms": 46,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "config": "vless://d7e2c1ec-b2ba-4a4c-a73a-c08f5bd7923b@rontgen.fasssst.ru:2243?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rontgen.fasssst.ru&fp=chrome&pbk=_ee-ouMazAzx7Q4_cYhWbu6pw53-8VVpt7tuBuCXziU&sid=e3cbc70477&spx=/&type=tcp&headerType=none#🇩🇰 🔃 Copenhagen Denmark",
+    "protocol": "vless",
+    "name": "🇩🇰 🔃 Copenhagen Denmark",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 0,
+    "error": "host unreachable"
+  },
+  {
+    "config": "vless://Warpi-Free-Vpn-In-GooglePlay@www.speedtest.net:80?encryption=none&security=none&type=xhttp&host=vp9.mydatacloud2.ir&path=/@WarpiFree---@WarpiFree---@WarpiFree---@WarpiFree&mode=auto#🇩🇪 Falkenstein Germany",
+    "protocol": "vless",
+    "name": "🇩🇪 Falkenstein Germany",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 539,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "config": "vless://90dd3391-6963-4fba-a1e1-5acb8a2ff0ba@lva.tunnelguard.ru:443?encryption=none&security=tls&sni=lva.tunnelguard.ru&alpn=h2,http/1.1&fp=chrome&type=xhttp&path=/#🇱🇻 Латвия 2 | xHTTP",
+    "protocol": "vless",
+    "name": "🇱🇻 Латвия 2 | xHTTP",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 0,
+    "error": "host unreachable"
+  },
+  {
+    "config": "vless://26052074-f2a5-4335-b602-fe34633c71b1@lva.tunnelguard.ru:443?encryption=none&security=tls&sni=lva.tunnelguard.ru&alpn=h2,http/1.1&fp=chrome&type=xhttp&path=/#🇱🇻 Латвия 1 | xHTTP",
+    "protocol": "vless",
+    "name": "🇱🇻 Латвия 1 | xHTTP",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 0,
+    "error": "host unreachable"
   },
   {
     "config": "vless://0e0df131-29f5-4725-b9a3-7b1a6cac4c95@plr.strelkavpn.ru:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=plr.strelkavpn.ru&fp=chrome&pbk=i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM&sid=ec5a33b66fab3e21&spx=/&type=tcp&headerType=none#🇵🇱 🔃 Warsaw Poland",
@@ -880,17 +416,41 @@
     "error": "host unreachable"
   },
   {
-    "config": "vless://727a9178-d7f0-4142-8205-b0d19959ded0@130.49.177.193:443?security=reality&flow=xtls-rprx-vision&pbk=DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc&sid=681fc2dd643bc2f3&sni=de-2.ffpn.pro&type=tcp&headerType=none&host=de-2.ffpn.pro&path=/&fp=android#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "config": "vless://Warpi-Free-Vpn-In-GooglePlay@www.speedtest.net:80?encryption=none&security=none&type=xhttp&host=vp10.mydatacloud2.ir&path=/@WarpiFree---@WarpiFree---@WarpiFree---@WarpiFree&mode=auto#🇩🇪 Falkenstein Germany",
     "protocol": "vless",
-    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 5412,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "name": "🇩🇪 Falkenstein Germany",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 559,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
   {
-    "config": "vless://669be00c-67b4-4b87-b08f-311c45abced2@third-legend.atlanta-internet.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=static.rutube.ru&fp=chrome&pbk=a_LbD81zTm6S8JtU98gY00xqsPOEucV4k0OEx0LOwgQ&sid=ffffffffff&type=tcp&headerType=none#🇷🇺 Moscow",
+    "config": "vless://f12bdba5-7ff5-4398-b859-08cdd7347fb3@rontgen.fasssst.ru:6443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rontgen.fasssst.ru&fp=chrome&pbk=DsiKWpNmI1TkNyvhHmQzRwkvJ0aaZeShzYCZa559Hn0&sid=b757398b&spx=/&type=tcp&headerType=none#🇮🇱 🔃 Израиль Петах-Тиква Israel",
     "protocol": "vless",
-    "name": "🇷🇺 Moscow",
+    "name": "🇮🇱 🔃 Израиль Петах-Тиква Israel",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 0,
+    "error": "host unreachable"
+  },
+  {
+    "config": "vless://a96d28ab-5018-4604-8fd6-2273f0eccaa4@104.17.148.22:443?encryption=none&security=tls&sni=zedmodeon.snapp-digikala.workers.dev&alpn=h2&allowInsecure=1&type=xhttp&host=zedmodeon.snapp-digikala.workers.dev&path=/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON&mode=auto#🇫🇷 Gravelines France",
+    "protocol": "vless",
+    "name": "🇫🇷 Gravelines France",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 389,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+  },
+  {
+    "config": "vless://7df4f23f-b361-412a-883a-54dfdb5b8c8f@bot.vudfaro.ir:5065?encryption=none&security=none&type=tcp#🇿🇦 South Africa, Johannesburg | [BL]",
+    "protocol": "vless",
+    "name": "🇿🇦 South Africa, Johannesburg | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 7034,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://fbcbae7b-cc64-4fb8-bfae-fda9ed59ea93@rontgen.fasssst.ru:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rontgen.fasssst.ru&fp=chrome&pbk=GqIhKEvnTZEL5riZGxtEC8w6VMGX__nZmzuajaIQJmU&sid=6d&spx=/&type=tcp&headerType=none#🇺🇸🔃Atlanta Georgia USA",
+    "protocol": "vless",
+    "name": "🇺🇸🔃Atlanta Georgia USA",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
     "latency_ms": 0,
     "error": "host unreachable"
@@ -900,7 +460,7 @@
     "protocol": "vless",
     "name": "🇩🇪 Falkenstein Germany",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 516,
+    "latency_ms": 501,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
   {
@@ -908,7 +468,7 @@
     "protocol": "vless",
     "name": "🇩🇪 Falkenstein Germany",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 528,
+    "latency_ms": 489,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
   {
@@ -916,45 +476,13 @@
     "protocol": "vless",
     "name": "🇩🇪 Falkenstein Germany",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 545,
+    "latency_ms": 562,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
   {
-    "config": "vless://a96d28ab-5018-4604-8fd6-2273f0eccaa4@104.17.148.22:443?encryption=none&security=tls&sni=zedmodeon.snapp-digikala.workers.dev&alpn=h2&allowInsecure=1&type=xhttp&host=zedmodeon.snapp-digikala.workers.dev&path=/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON&mode=auto#🇫🇷 Gravelines France",
+    "config": "vless://669be00c-67b4-4b87-b08f-311c45abced2@third-legend.atlanta-internet.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=static.rutube.ru&fp=chrome&pbk=a_LbD81zTm6S8JtU98gY00xqsPOEucV4k0OEx0LOwgQ&sid=ffffffffff&type=tcp&headerType=none#🇷🇺 Moscow",
     "protocol": "vless",
-    "name": "🇫🇷 Gravelines France",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 742,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  },
-  {
-    "config": "vless://727a9178-d7f0-4142-8205-b0d19959ded0@130.49.177.193:443?security=reality&flow=xtls-rprx-vision&pbk=DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc&sid=681fc2dd643bc2f3&sni=de-2.ffpn.pro&type=tcp&headerType=none&host=de-2.ffpn.pro&path=/&fp=chrome#🇩🇪 Germany, Frankfurt am Main | [BL]",
-    "protocol": "vless",
-    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 5409,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://727a9178-d7f0-4142-8205-b0d19959ded0@130.49.177.193:443?security=reality&flow=xtls-rprx-vision&pbk=DCpi9-1rSXxBnEIAQ9U3mTqHivk7vHJRV_T2pWw5vCc&sid=681fc2dd643bc2f3&sni=de-2.ffpn.pro&type=tcp&headerType=none&host=de-2.ffpn.pro&path=/&fp=firefox#🇩🇪 Germany, Frankfurt am Main | [BL]",
-    "protocol": "vless",
-    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 5412,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://a96d28ab-5018-4604-8fd6-2273f0eccaa4@104.17.147.22:443?encryption=none&security=tls&sni=zedmodeon.snapp-digikala.workers.dev&alpn=h2&allowInsecure=1&type=xhttp&host=zedmodeon.snapp-digikala.workers.dev&path=/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON&mode=auto#🇫🇷 Gravelines France",
-    "protocol": "vless",
-    "name": "🇫🇷 Gravelines France",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 133,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-  },
-  {
-    "config": "vless://fbcbae7b-cc64-4fb8-bfae-fda9ed59ea93@rontgen.fasssst.ru:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rontgen.fasssst.ru&fp=chrome&pbk=GqIhKEvnTZEL5riZGxtEC8w6VMGX__nZmzuajaIQJmU&sid=6d&spx=/&type=tcp&headerType=none#🇺🇸🔃Atlanta Georgia USA",
-    "protocol": "vless",
-    "name": "🇺🇸🔃Atlanta Georgia USA",
+    "name": "🇷🇺 Moscow",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
     "latency_ms": 0,
     "error": "host unreachable"
@@ -976,14 +504,6 @@
     "error": "host unreachable"
   },
   {
-    "config": "vless://1dc60f16-1593-485e-949d-8459edba6430@92.53.107.193:27129?encryption=none&security=reality&sni=yahoo.com&fp=chrome&pbk=pqVSxW8Vukd7XiPZUQTd9ADNT2XBrCGJ4q2-7n6kQXQ&sid=d70393f0ad1c7552&type=tcp&headerType=none#🇷🇺 Saint-Petersburg",
-    "protocol": "vless",
-    "name": "🇷🇺 Saint-Petersburg",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 0,
-    "error": "host unreachable"
-  },
-  {
     "config": "vless://80fff33c-9cda-488e-aba4-3b2657969847@xtlsresponse.revolutiontime.vigilante.ir:6842?encryption=none&security=reality&sni=slack.com&fp=firefox&pbk=VhtP5s6yTV3jLOC0i-W_mXT8-H-sJJyo9BmGo6F6dW4&sid=934e93fea74aeefe&type=grpc&authority=&serviceName=DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs--DailyConfigs?ed=2048&mode=gun#🇫🇮 Helsinki Finland",
     "protocol": "vless",
     "name": "🇫🇮 Helsinki Finland",
@@ -992,28 +512,12 @@
     "error": "host unreachable"
   },
   {
-    "config": "vless://fa45096d-bed0-ad80-c773-23c30000001b@103.143.81.178:443?security=tls&type=ws&path=/sync&host=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&packetEncoding=xudp&sni=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&encryption=none&fp=chrome#🌐 Anycast-IP | 🇧🇪 🇨🇦 🇭🇰 🇮🇪 🇰🇷 | [BL]",
+    "config": "vless://a96d28ab-5018-4604-8fd6-2273f0eccaa4@104.17.147.22:443?encryption=none&security=tls&sni=zedmodeon.snapp-digikala.workers.dev&alpn=h2&allowInsecure=1&type=xhttp&host=zedmodeon.snapp-digikala.workers.dev&path=/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON/---@ZEDMODEON&mode=auto#🇫🇷 Gravelines France",
     "protocol": "vless",
-    "name": "🌐 Anycast-IP | 🇧🇪 🇨🇦 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
-    "latency_ms": 7041,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fa45096d-bed0-ad80-c773-23c30000001b@103.143.81.178:443?security=tls&type=ws&path=/sync&host=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&packetEncoding=xudp&sni=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&encryption=none&fp=firefox#🌐 Anycast-IP | 🇧🇪 🇨🇦 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "protocol": "vless",
-    "name": "🌐 Anycast-IP | 🇧🇪 🇨🇦 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
-    "latency_ms": 7042,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fa45096d-bed0-ad80-c773-23c30000001b@103.143.81.178:443?type=ws&path=%2Fsync&host=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&security=tls&sni=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&fp=safari#🌐 Anycast-IP | 🇧🇪 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "protocol": "vless",
-    "name": "🌐 Anycast-IP | 🇧🇪 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
-    "latency_ms": 7035,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+    "name": "🇫🇷 Gravelines France",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 347,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
   {
     "config": "vless://f6f0191f-1edc-446b-b7d0-a90c19cf6a7a@rsr.fasssst.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=rsr.fasssst.ru&fp=chrome&pbk=zqK2uIx7zaEDvGbKLX3Rqqt1PYVm8BFBUmS7jK9HF1M&sid=04f50bd2899df409&spx=/&type=tcp&headerType=none#🇷🇸 🔃 Belgrad Serbia",
@@ -1024,19 +528,11 @@
     "error": "host unreachable"
   },
   {
-    "config": "vless://fa45096d-bed0-ad80-c773-23c30000001b@103.143.81.178:443?type=ws&path=%2Fsync&host=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&security=tls&sni=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&fp=chrome#🌐 Anycast-IP | 🇧🇪 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "protocol": "vless",
-    "name": "🌐 Anycast-IP | 🇧🇪 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
-    "latency_ms": 7040,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
     "config": "vless://Warpi-Free-Vpn-In-GooglePlay@www.speedtest.net:80?encryption=none&security=none&type=xhttp&host=vp11.mydatacloud2.ir&path=/@WarpiFree---@WarpiFree---@WarpiFree---@WarpiFree&mode=auto#🇩🇪 Falkenstein Germany",
     "protocol": "vless",
     "name": "🇩🇪 Falkenstein Germany",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 479,
+    "latency_ms": 524,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
   {
@@ -1048,28 +544,156 @@
     "error": "host unreachable"
   },
   {
+    "config": "vless://8150f216-7d97-4629-878c-10e5ed16fcb9@67.216.204.136:39811?encryption=none&flow=xtls-rprx-vision&pbk=hoXkq6HpOro7tm55ROufB6wACgEXN_6nzBd-78a8Fkk&security=reality&sid=6ba85179e30d4fc2&sni=academy.nvidia.com&type=tcp&fp=firefox#🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
+    "protocol": "vless",
+    "name": "🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 7035,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://8150f216-7d97-4629-878c-10e5ed16fcb9@67.216.204.136:39811?encryption=none&flow=xtls-rprx-vision&pbk=hoXkq6HpOro7tm55ROufB6wACgEXN_6nzBd-78a8Fkk&security=reality&sid=6ba85179e30d4fc2&sni=academy.nvidia.com&type=tcp&fp=qq#🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
+    "protocol": "vless",
+    "name": "🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 7033,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
     "config": "vless://88538870-5626-4cd7-9cda-1e0b6253c9ce@www.speedtest.net:443?encryption=none&security=tls&sni=kalam.mrconfigur.site&type=ws&host=kalam.mrconfigur.site&path=/#🇩🇪 Frankfurt am Main Germany📡",
     "protocol": "vless",
     "name": "🇩🇪 Frankfurt am Main Germany📡",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 4233,
+    "latency_ms": 4246,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://8150f216-7d97-4629-878c-10e5ed16fcb9@67.216.204.136:39811?encryption=none&flow=xtls-rprx-vision&pbk=hoXkq6HpOro7tm55ROufB6wACgEXN_6nzBd-78a8Fkk&security=reality&sid=6ba85179e30d4fc2&sni=academy.nvidia.com&type=tcp&fp=safari#🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
+    "protocol": "vless",
+    "name": "🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+    "latency_ms": 7033,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
     "config": "vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@cosmin.ns.cloudflare.com:443?encryption=none&security=tls&sni=639000411272217052.swift-amsin.info&allowInsecure=1&type=ws&host=639000411272217052.swift-amsin.info&path=/cahttingws#🇫🇷 Aubervilliers France",
     "protocol": "vless",
     "name": "🇫🇷 Aubervilliers France",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 4209,
+    "latency_ms": 4171,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   {
-    "config": "vless://b8d8a5b0-867f-4491-b4e4-30edc04bb10e@212.119.43.76:443?encryption=none&security=tls&sni=u.srilankangrill.online&type=ws&host=u.srilankangrill.online&path=/&fp=ios#🇸🇬 Singapore, Singapore (Somapah) | [BL]",
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@100497t.de18.h1clayd.click:443?encryption=none&type=tcp&security=reality&sni=100497t.de18.h1clayd.click&pbk=x-7K9P2E91DCL-0ONwm14gxDkUseukg98hYzB-1dW1A&sid=5be240e45d3c445c&spx=/&fp=edge#🇩🇪 Germany, Frankfurt am Main | [BL]",
     "protocol": "vless",
-    "name": "🇸🇬 Singapore, Singapore (Somapah) | [BL]",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 7041,
+    "latency_ms": 7039,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@100497t.de18.h1clayd.click:443?encryption=none&type=tcp&security=reality&sni=100497t.de18.h1clayd.click&pbk=x-7K9P2E91DCL-0ONwm14gxDkUseukg98hYzB-1dW1A&sid=5be240e45d3c445c&spx=/&fp=qq#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 7038,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@aaf9a7x.de18.h1clayd.click:443?encryption=none&type=xhttp&security=reality&sni=aaf9a7x.de18.h1clayd.click&pbk=JxuqY729RxyPX7D1cZigwHUYbkSPIx2H7vNTcrj4VBs&sid=19a70eda3a2416cb&spx=/&path=/9e6c99f913ef&host=aaf9a7x.de18.h1clayd.click&mode=auto&fp=chrome#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 7037,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@aaf9a7x.de18.h1clayd.click:443?encryption=none&type=xhttp&security=reality&sni=aaf9a7x.de18.h1clayd.click&pbk=JxuqY729RxyPX7D1cZigwHUYbkSPIx2H7vNTcrj4VBs&sid=19a70eda3a2416cb&spx=/&path=/9e6c99f913ef&host=aaf9a7x.de18.h1clayd.click&mode=auto&fp=android#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 7036,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@aaf9a7x.de18.h1clayd.click:443?encryption=none&type=xhttp&security=reality&sni=aaf9a7x.de18.h1clayd.click&pbk=JxuqY729RxyPX7D1cZigwHUYbkSPIx2H7vNTcrj4VBs&sid=19a70eda3a2416cb&spx=/&path=/9e6c99f913ef&host=aaf9a7x.de18.h1clayd.click&mode=auto&fp=edge#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 7038,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@cosmin.ns.cloudflare.com:443?encryption=none&security=tls&sni=639000411272217052.swift-amsin.info&fp=chrome&allowInsecure=1&type=ws&host=639000411272217052.swift-amsin.info&path=/cahttingws#🇫🇷 Aubervilliers France",
+    "protocol": "vless",
+    "name": "🇫🇷 Aubervilliers France",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 4194,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://097712e8-666a-42e2-aebf-c03d597d8482@cosmin.ns.cloudflare.com:443?encryption=none&security=tls&sni=639002745868715407.golf-amsir.info&type=ws&path=/mcqvlfws#🇳🇱 Meppel NL",
+    "protocol": "vless",
+    "name": "🇳🇱 Meppel NL",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 4171,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@ac3f32g.de18.h1clayd.click:443?encryption=none&type=grpc&security=reality&sni=ac3f32g.de18.h1clayd.click&pbk=cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q&sid=051e90ed3d657158&spx=/&serviceName=01ad85319ae3&fp=ios#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 7029,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@ac3f32g.de18.h1clayd.click:443?encryption=none&type=grpc&security=reality&sni=ac3f32g.de18.h1clayd.click&pbk=cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q&sid=051e90ed3d657158&spx=/&serviceName=01ad85319ae3&fp=edge#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 7027,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@aaf9a7x.de18.h1clayd.click:443?encryption=none&type=xhttp&security=reality&sni=aaf9a7x.de18.h1clayd.click&pbk=JxuqY729RxyPX7D1cZigwHUYbkSPIx2H7vNTcrj4VBs&sid=19a70eda3a2416cb&spx=/&path=/9e6c99f913ef&host=aaf9a7x.de18.h1clayd.click&mode=auto&fp=safari#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 7038,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
+  },
+  {
+    "config": "vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?encryption=none&security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&host=vless.hubp.de&path=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET#🇷🇺 Ryleevo Podmoskovie",
+    "protocol": "vless",
+    "name": "🇷🇺 Ryleevo Podmoskovie",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 4329,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@ac3f32g.de18.h1clayd.click:443?encryption=none&type=grpc&security=reality&sni=ac3f32g.de18.h1clayd.click&pbk=cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q&sid=051e90ed3d657158&spx=/&serviceName=01ad85319ae3&fp=qq#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 7028,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://94042dd1-d32a-4797-b88c-dc48459e2b34@ac3f32g.de18.h1clayd.click:443?encryption=none&type=grpc&security=reality&sni=ac3f32g.de18.h1clayd.click&pbk=cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q&sid=051e90ed3d657158&spx=/&serviceName=01ad85319ae3&fp=safari#🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "protocol": "vless",
+    "name": "🇩🇪 Germany, Frankfurt am Main | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 7025,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+  },
+  {
+    "config": "vless://9936ae5c-91cd-4c8a-80e9-5118a209a7e4@188.253.21.106:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=firefox&pbk=4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws&sid=73d3fec4&type=tcp&headerType=none#🇱🇻 Riga Latvia⚡",
+    "protocol": "vless",
+    "name": "🇱🇻 Riga Latvia⚡",
+    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
+    "latency_ms": 5385,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   {
     "config": "vless://669be00c-67b4-4b87-b08f-311c45abced2@ru.atlanta-internet.ru:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=pingless.com&fp=safari&pbk=FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI&type=tcp&headerType=none#🇷🇺 Moscow 13 | snCOM.frNotRU.orRU",
@@ -1088,99 +712,51 @@
     "error": "host unreachable"
   },
   {
-    "config": "vless://53f0bca8-f170-4ef7-8031-c7d441189dbf@cosmin.ns.cloudflare.com:443?encryption=none&security=tls&sni=639000411272217052.swift-amsin.info&fp=chrome&allowInsecure=1&type=ws&host=639000411272217052.swift-amsin.info&path=/cahttingws#🇫🇷 Aubervilliers France",
+    "config": "vless://cd7aaad3-2696-4aa3-9586-974aac6b38b4@gbr.fasssst.online:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gbr.fasssst.online&fp=chrome&pbk=CiNZ8CV91C7Zy8QtefH39nF2VuH9fQgV-5uT8O7-sEU&sid=d23296c9781e8657&spx=/&type=tcp&headerType=none#🇬🇧 🔃 England London",
     "protocol": "vless",
-    "name": "🇫🇷 Aubervilliers France",
+    "name": "🇬🇧 🔃 England London",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 4198,
+    "latency_ms": 5704,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   {
-    "config": "vless://097712e8-666a-42e2-aebf-c03d597d8482@cosmin.ns.cloudflare.com:443?encryption=none&security=tls&sni=639002745868715407.golf-amsir.info&type=ws&path=/mcqvlfws#🇳🇱 Meppel NL",
+    "config": "vless://8150f216-7d97-4629-878c-10e5ed16fcb9@67.216.204.136:39811?encryption=none&flow=xtls-rprx-vision&pbk=hoXkq6HpOro7tm55ROufB6wACgEXN_6nzBd-78a8Fkk&security=reality&sid=6ba85179e30d4fc2&sni=academy.nvidia.com&type=tcp&fp=android#🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
     "protocol": "vless",
-    "name": "🇳🇱 Meppel NL",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 4203,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "name": "🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
+    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+    "latency_ms": 7036,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@104.18.82.55:443?encryption=none&security=tls&sni=vless.hubp.de&alpn=h3&fp=chrome&type=ws&host=vless.hubp.de&path=Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET#🇷🇺 Ryleevo Podmoskovie",
+    "config": "vless://8150f216-7d97-4629-878c-10e5ed16fcb9@67.216.204.136:39811?encryption=none&flow=xtls-rprx-vision&pbk=hoXkq6HpOro7tm55ROufB6wACgEXN_6nzBd-78a8Fkk&security=reality&sid=6ba85179e30d4fc2&sni=academy.nvidia.com&type=tcp&fp=chrome#🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
     "protocol": "vless",
-    "name": "🇷🇺 Ryleevo Podmoskovie",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 4201,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://9936ae5c-91cd-4c8a-80e9-5118a209a7e4@188.253.21.106:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=firefox&pbk=4JvLKnuuAs4h0cQ1j_S4SAuXQQ579D7Wr1sGBjmH-Ws&sid=73d3fec4&type=tcp&headerType=none#🇱🇻 Riga Latvia⚡",
-    "protocol": "vless",
-    "name": "🇱🇻 Riga Latvia⚡",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 5442,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-  },
-  {
-    "config": "vless://fa45096d-bed0-ad80-c773-23c30000001b@103.143.81.178:443?security=tls&type=ws&path=/sync&host=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&packetEncoding=xudp&sni=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&encryption=none&fp=ios#🌐 Anycast-IP | 🇧🇪 🇨🇦 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "protocol": "vless",
-    "name": "🌐 Anycast-IP | 🇧🇪 🇨🇦 🇭🇰 🇮🇪 🇰🇷 | [BL]",
+    "name": "🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
     "latency_ms": 7037,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://fa45096d-bed0-ad80-c773-23c30000001b@103.143.81.178:443?security=tls&type=ws&path=/sync&host=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&packetEncoding=xudp&sni=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&encryption=none&fp=qq#🌐 Anycast-IP | 🇧🇪 🇨🇦 🇭🇰 🇮🇪 🇰🇷 | [BL]",
+    "config": "vless://8150f216-7d97-4629-878c-10e5ed16fcb9@67.216.204.136:39811?encryption=none&flow=xtls-rprx-vision&pbk=hoXkq6HpOro7tm55ROufB6wACgEXN_6nzBd-78a8Fkk&security=reality&sid=6ba85179e30d4fc2&sni=academy.nvidia.com&type=tcp&fp=ios#🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
     "protocol": "vless",
-    "name": "🌐 Anycast-IP | 🇧🇪 🇨🇦 🇭🇰 🇮🇪 🇰🇷 | [BL]",
+    "name": "🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 7046,
+    "latency_ms": 7040,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   },
   {
-    "config": "vless://fa45096d-bed0-ad80-c773-23c30000001b@103.143.81.178:443?security=tls&type=ws&path=/sync&host=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&packetEncoding=xudp&sni=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&encryption=none&fp=safari#🌐 Anycast-IP | 🇧🇪 🇨🇦 🇭🇰 🇮🇪 🇰🇷 | [BL]",
+    "config": "vless://8150f216-7d97-4629-878c-10e5ed16fcb9@67.216.204.136:39811?encryption=none&flow=xtls-rprx-vision&pbk=hoXkq6HpOro7tm55ROufB6wACgEXN_6nzBd-78a8Fkk&security=reality&sid=6ba85179e30d4fc2&sni=academy.nvidia.com&type=tcp&fp=edge#🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
     "protocol": "vless",
-    "name": "🌐 Anycast-IP | 🇧🇪 🇨🇦 🇭🇰 🇮🇪 🇰🇷 | [BL]",
+    "name": "🇺🇸 United States, Los Angeles (Downtown Los Angeles) | [BL]",
     "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 7048,
+    "latency_ms": 7036,
     "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fa45096d-bed0-ad80-c773-23c30000001b@103.143.81.178:443?type=ws&path=%2Fsync&host=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&security=tls&sni=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&fp=firefox#🌐 Anycast-IP | 🇧🇪 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "protocol": "vless",
-    "name": "🌐 Anycast-IP | 🇧🇪 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 7042,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fa45096d-bed0-ad80-c773-23c30000001b@103.143.81.178:443?type=ws&path=%2Fsync&host=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&security=tls&sni=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&fp=ios#🌐 Anycast-IP | 🇧🇪 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "protocol": "vless",
-    "name": "🌐 Anycast-IP | 🇧🇪 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 7038,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://fa45096d-bed0-ad80-c773-23c30000001b@103.143.81.178:443?type=ws&path=%2Fsync&host=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&security=tls&sni=xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev&fp=qq#🌐 Anycast-IP | 🇧🇪 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "protocol": "vless",
-    "name": "🌐 Anycast-IP | 🇧🇪 🇭🇰 🇮🇪 🇰🇷 | [BL]",
-    "source": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
-    "latency_ms": 7035,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
-  },
-  {
-    "config": "vless://cd7aaad3-2696-4aa3-9586-974aac6b38b4@gbr.fasssst.online:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gbr.fasssst.online&fp=chrome&pbk=CiNZ8CV91C7Zy8QtefH39nF2VuH9fQgV-5uT8O7-sEU&sid=d23296c9781e8657&spx=/&type=tcp&headerType=none#🇬🇧 🔃 England London",
-    "protocol": "vless",
-    "name": "🇬🇧 🔃 England London",
-    "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 5744,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   },
   {
     "config": "vless://495d0938-b565-4f65-aa65-cbe876aadf47@yt.fasssst.ru:444?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yt.fasssst.ru&fp=chrome&pbk=14S-a9NL1PacapqVE4ojKZeEM5995jFyfwS0xc9UtRk&sid=1c2a18e708a1be9d&spx=/&type=tcp&headerType=none#🇷🇺 Saint-Petersburg",
     "protocol": "vless",
     "name": "🇷🇺 Saint-Petersburg",
     "source": "https://raw.githubusercontent.com/holpon/bdbcb/main/black/Blacklist.txt",
-    "latency_ms": 5949,
-    "error": "http://connectivitycheck.gstatic.com/generate_204 -> ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "latency_ms": 7039,
+    "error": "http://connectivitycheck.gstatic.com/generate_204 -> SOCKSHTTPConnectionPool(host='connectivitycheck.gstatic.com', port=80): Read timed out. (read timeout=5.0)"
   }
 ]
